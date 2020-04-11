@@ -419,7 +419,7 @@ function setSide(side) {
     var image = getSelValue(select[side], 'value');
     var pathBase = getSelValue(select[side], 'folder');
 
-    if (pathBase != 'Original') {
+    if (pathBase != 'original') {
         whichQual.disabled = false;
         var quality = whichQual.options[whichQual.selectedIndex].innerHTML.toLowerCase() + '/';
     } else {
