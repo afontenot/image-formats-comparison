@@ -89,22 +89,17 @@
             <li>All codecs were updated to their latest available releases, see below. This fixes <a href="https://github.com/WyohKnott/image-formats-comparison/issues/8" target="_blank">this issue</a>.</li>
         </ul>
         <h2>Versions and Commands</h2>
-        <p>AV1 (aom reference encoder 1.0.0.errata1)</p>
+        <p><b>AV1 (aom reference encoder 1.0.0.errata1):</b></p>
         <p><pre>aomenc --i444 --passes=2 --end-usage=q --cq-level={quality} -o {output.webm} {input.y4m}</pre></p>
-        <br>
-        <p>BPG (libbpg 0.9.8-1)</p>
+        <p><b>BPG (libbpg 0.9.8-1):</b></p>
         <p><pre>bpgenc -m 9 -f 444 -q {quality} -o {output.bpg} {input.png}</pre></p>
-        <br>
-        <p>FLIF (FLIF 0.3-6)</p>
+        <p><b>FLIF (FLIF 0.3-6):</b></p>
         <p><pre>flif -E 95 -Q {quality} {input.png} {output.flif}</pre></p>
-        <br>
-        <p>JPEGXL (libjpeg-xl git:0709f3a4 2020-02-19)</p>
+        <p><b>JPEGXL (libjpeg-xl git:0709f3a4 2020-02-19):</b></p>
         <p><pre>cjpegxl -s 9 -q {quality} {input.png} {output.jxl}</pre></p>
-        <br>
-        <p>JPEGXR (jxrlib 0.2.1)</p>
+        <p><b>JPEGXR (jxrlib 0.2.1):</b></p>
         <p><pre>JxrEncApp -d 3 -q {quality} -o {output.jxr} -i {input.ppm}</pre></p>
-        <br>
-        <p>MozJPEG (mozjpeg 3.3.1)</p>
+        <p><b>MozJPEG (mozjpeg 3.3.1):</b></p>
         <p><pre>cjpeg -quality {quality} -outfile {output.jpg} {input.png}</pre></p>
     </div>
 
