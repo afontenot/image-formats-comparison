@@ -456,14 +456,10 @@
                 hashArr = (location.hash).split('#', 3);
 
                 ampArr = (hashArr.pop() + '&=' + '&=').split('&', 5);
-                console.log(ampArr);
                 imgOpts = ampArr[0].split('*', 2);
                 leftOpts = ampArr[1].split('=', 2);
                 rightOpts = ampArr[2].split('=', 2);
 
-                console.log(imgOpts);
-                console.log(leftOpts);
-                console.log(rightOpts);
                 for (var opt, j = 0; opt = select.file.options[j]; j++) {
                     if (getSlugName(opt.text) == imgOpts[0]) {
                         select.file.selectedIndex = j;
@@ -548,7 +544,6 @@
                             opt.text = file["title"];
                             fileSel.add(opt, null);
                         }
-                        // testing a fix for the URL bug
                         getWindowsOptions();
                         urlFolder = "comparisonfiles/" + getSelValue(select.subset, 'value') + "/";
                         setFile();
