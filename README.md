@@ -2,7 +2,7 @@ image-formats-comparison
 ==================
 http://afontenot.github.io/image-formats-comparison/
 
-This is a clean fork of [https://github.com/WyohKnott/image-formats-comparison](the version by WyohKnott), removing unnecessary files and the large git history.
+This is a clean fork of [the version by WyohKnott](https://github.com/WyohKnott/image-formats-comparison), removing unnecessary files and the large git history.
 
 The following changes have been made to the previous version:
 
