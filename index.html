@@ -351,7 +351,7 @@
                     window.URL.revokeObjectURL(blobPath);
                 };
                 image.onerror = function () {
-                    console.log("loading as PNG");
+                    this.onerror=null;
                     image.src = urlFolder.concat(pathBase, '/', urlFile, '.', 'png');
                 };
                 image.src = blobPath;
