@@ -548,8 +548,6 @@
                             opt.text = file["title"];
                             fileSel.add(opt, null);
                         }
-                        // testing a fix for the URL bug
-                        getWindowsOptions();
                         urlFolder = "comparisonfiles/" + getSelValue(select.subset, 'value') + "/";
                         setFile();
                     }
@@ -562,6 +560,8 @@
                         opt.text = subset;
                         subsetSel.add(opt, null);
                     }
+                    // testing a fix for the URL bug
+                    getWindowsOptions();
                     subsetChange();
                     urlFolder = "comparisonfiles/" + getSelValue(select.subset, 'value') + "/";
                     setFile();
