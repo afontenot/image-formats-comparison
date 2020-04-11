@@ -1,0 +1,520 @@
+{
+    "comparisonfiles": {
+        "subset1": {
+            "format": [
+                {
+                    "extension": "webm",
+                    "name": "AV1-20160930"
+                },
+                {
+                    "extension": "webm",
+                    "name": "AV1-20170809"
+                },
+                {
+                    "extension": "webm",
+                    "name": "AV1-20180222"
+                },
+                {
+                    "extension": "bpg",
+                    "name": "BPG"
+                },
+                {
+                    "extension": "ogv",
+                    "name": "DAALA"
+                },
+                {
+                    "extension": "flif",
+                    "name": "FLIF"
+                },
+                {
+                    "extension": "jxr",
+                    "name": "JXR"
+                },
+                {
+                    "extension": "jp2",
+                    "name": "KDU"
+                },
+                {
+                    "extension": "jpg",
+                    "name": "MOZJPEG"
+                },
+                {
+                    "extension": "jp2",
+                    "name": "OPENJPEG"
+                },
+                {
+                    "extension": "pik",
+                    "name": "PIK"
+                },
+                {
+                    "extension": "webm",
+                    "name": "VP9"
+                },
+                {
+                    "extension": "webp",
+                    "name": "WEBP"
+                },
+                {
+                    "extension": "png",
+                    "name": "Original"
+                }
+            ],
+            "files": [
+                {
+                    "title": "Pont de Qu\u00e9bec",
+                    "filename": "125_-_Qu\u00e9bec_-_Pont_de_Qu\u00e9bec_de_nuit_-_Septembre_2009"
+                },
+                {
+                    "title": "Abandonned factory",
+                    "filename": "Abandoned_Packard_Automobile_Factory_Detroit_200"
+                },
+                {
+                    "title": "Bath from Alexandra park",
+                    "filename": "Bath_from_alexandra_park"
+                },
+                {
+                    "title": "Catedral de Toledo",
+                    "filename": "Catedral_de_Toledo.Altar_Mayor_(huge)"
+                },
+                {
+                    "title": "Clovisfest",
+                    "filename": "Clovisfest"
+                },
+                {
+                    "title": "Citroen",
+                    "filename": "Citroen_C4F"
+                },
+                {
+                    "title": "Sunset",
+                    "filename": "Crepuscular_rays_at_Sunset_near_Waterberg_Plateau"
+                },
+                {
+                    "title": "Panthera tigris",
+                    "filename": "08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04"
+                },
+                {
+                    "title": "Festa Major del Clot",
+                    "filename": "Correfocs_Festa_Major_del_Clot_2009"
+                },
+                {
+                    "title": "Adventure with the Windmills",
+                    "filename": "Adventure_with_the_Windmills"
+                },
+                {
+                    "title": "Buenos Aires",
+                    "filename": "Buenos_Aires_Cityline_at_Night_-_Irargerich"
+                },
+                {
+                    "title": "Vall\u00e9e de Colca",
+                    "filename": "205_-_Vall\u00e9e_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6"
+                },
+                {
+                    "title": "Cecret Lake",
+                    "filename": "Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009"
+                },
+                {
+                    "title": "Eaglefairy",
+                    "filename": "Eaglefairy_hst_big"
+                },
+                {
+                    "title": "End of Show",
+                    "filename": "End_of_Show_3"
+                },
+                {
+                    "title": "Claudette",
+                    "filename": "Claudette_14_july_2003_1920Z"
+                },
+                {
+                    "title": "Source du P\u00eacher",
+                    "filename": "Florac-Le_Vibron-Source_du_P\u00eacher"
+                },
+                {
+                    "title": "Avenches",
+                    "filename": "IENA_-_Avenches_-_6"
+                },
+                {
+                    "title": "Lufthansa Aviation Center",
+                    "filename": "Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03"
+                },
+                {
+                    "title": "Endeavour with Columbia",
+                    "filename": "Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996"
+                },
+                {
+                    "title": "Moscow",
+                    "filename": "Moscow_July_2011-4a"
+                },
+                {
+                    "title": "Nymphe et Amour",
+                    "filename": "Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Ch\u00e2teau_de_Versailles_-_P1050390-P1050394_-_rectilinear"
+                },
+                {
+                    "title": "V\u00e9zelay Basilique",
+                    "filename": "89_-_V\u00e9zelay_Basilique_2"
+                },
+                {
+                    "title": "Production of B-24 bombers",
+                    "filename": "Production_of_B-24_bombers_and_C-87_transports2"
+                },
+                {
+                    "title": "Kr\u00f8yer",
+                    "filename": "Kr\u00f8yer_PS"
+                },
+                {
+                    "title": "Seikima-II",
+                    "filename": "Seikima-II_20100704_Japan_Expo_32"
+                },
+                {
+                    "title": "Southern pacific",
+                    "filename": "Southern_pacific_1215"
+                },
+                {
+                    "title": "Grimburgwal Amsterdam",
+                    "filename": "GrimburgwalAmsterdam"
+                },
+                {
+                    "title": "Mrio",
+                    "filename": "Mrio_sdp1"
+                },
+                {
+                    "title": "Ohashi",
+                    "filename": "Ohashi0806shield"
+                },
+                {
+                    "title": "Reykjav\u00edk",
+                    "filename": "Reykjav\u00edk_03"
+                },
+                {
+                    "title": "Japan Expo",
+                    "filename": "MEG_20110701_Japan_Expo_02"
+                },
+                {
+                    "title": "Steinway",
+                    "filename": "Steinway_Vienna_panoramic"
+                },
+                {
+                    "title": "Sailor",
+                    "filename": "US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill"
+                },
+                {
+                    "title": "Mascot",
+                    "filename": "ST_vs_RCT_-_December_2011_-_077"
+                },
+                {
+                    "title": "Sking",
+                    "filename": "Sking"
+                },
+                {
+                    "title": "Vid Gajsek",
+                    "filename": "Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica"
+                },
+                {
+                    "title": "White Dune",
+                    "filename": "White_Dune_-_Mui_Ne"
+                },
+                {
+                    "title": "US Open",
+                    "filename": "US_Open_Tennis_2010_1st_Round_046"
+                },
+                {
+                    "title": "Cath\u00e9drale Sainte C\u00e9cile",
+                    "filename": "Albi__Cath\u00e9drale_Sainte_C\u00e9cile_(3)"
+                },
+                {
+                    "title": "Kopenhagen",
+                    "filename": "Kopenhagen__Tivoli-9120"
+                },
+                {
+                    "title": "Landing craft",
+                    "filename": "US_Navy_091029-M-5645B-091_A_landing_craft__air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk"
+                },
+                {
+                    "title": "Swallowtail",
+                    "filename": "Swallowtail_05_06_07"
+                },
+                {
+                    "title": "Nestor meridionalis",
+                    "filename": "Nestor_meridionalis_-Rotorua__North_Island__New_Zealand-8a"
+                },
+                {
+                    "title": "Wasserfassstelle",
+                    "filename": "Wasserfassstelle_von_1898_im_Schanerloch"
+                },
+                {
+                    "title": "Washington Monument",
+                    "filename": "Washington_Monument__Washington__D.C._04037u_original"
+                },
+                {
+                    "title": "Mercado dos Lavradores",
+                    "filename": "2011-03-05_03-13_Madeira_159_Funchal__Mercado_dos_Lavradores"
+                },
+                {
+                    "title": "Thomas Jefferson Building",
+                    "filename": "Mural_in_Northeast_Pavillion__Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit"
+                },
+                {
+                    "title": "Air Force Academy Chapel",
+                    "filename": "Air_Force_Academy_Chapel__Colorado_Springs__CO_04090u_original"
+                },
+                {
+                    "title": "Fruits oranges",
+                    "filename": "Fruits_oranges__jardin_japonais_2"
+                }
+            ]
+        },
+        "subset2": {
+            "format": [
+                {
+                    "extension": "webm",
+                    "name": "AV1-20160930"
+                },
+                {
+                    "extension": "webm",
+                    "name": "AV1-20170809"
+                },
+                {
+                    "extension": "bpg",
+                    "name": "BPG"
+                },
+                {
+                    "extension": "ogv",
+                    "name": "DAALA"
+                },
+                {
+                    "extension": "flif",
+                    "name": "FLIF"
+                },
+                {
+                    "extension": "jxr",
+                    "name": "JXR"
+                },
+                {
+                    "extension": "jp2",
+                    "name": "KDU"
+                },
+                {
+                    "extension": "jpg",
+                    "name": "MOZJPEG"
+                },
+                {
+                    "extension": "jp2",
+                    "name": "OPENJPEG"
+                },
+                {
+                    "extension": "webp",
+                    "name": "WEBP"
+                },
+                {
+                    "extension": "webm",
+                    "name": "VP9"
+                },
+                {
+                    "extension": "png",
+                    "name": "Original"
+                }
+            ],
+            "files": [
+                {
+                    "title": "Camel",
+                    "filename": "Camelo_-_Timanfaya_-_Lanzarote_-_Illas_Canarias-_Spain-T32"
+                },
+                {
+                    "title": "77 Bombay Street",
+                    "filename": "77_Bombay_Street_Photo_by_Sven_Fischer"
+                },
+                {
+                    "title": "Baruch",
+                    "filename": "Baruch"
+                },
+                {
+                    "title": "Abandoned Railroad Signal",
+                    "filename": "Abandoned_Railroad_Signal"
+                },
+                {
+                    "title": "CRAY-2",
+                    "filename": "CRAY-2_IMG_8974.CR2"
+                },
+                {
+                    "title": "Branaunmore",
+                    "filename": "Branaunmore06(js)"
+                },
+                {
+                    "title": "St Patricks Day Parade",
+                    "filename": "Dublin_2010_St_Patricks_Day_Parade_-_Spraoi_by_infomatique"
+                },
+                {
+                    "title": "Fontaine",
+                    "filename": "Fontaine_-_Place_Stanislas_-_Nancy_-_P1300523-P1300532"
+                },
+                {
+                    "title": "Train station",
+                    "filename": "Abashiri_Station06s3"
+                },
+                {
+                    "title": "Dompropstei Hildesheim",
+                    "filename": "Dompropstei_Hildesheim"
+                },
+                {
+                    "title": "Fragata ARA Libertad",
+                    "filename": "Fragata_ARA_Libertad_(Q-2)_(3645511700)"
+                },
+                {
+                    "title": "Dom Domtreppe Severikirche",
+                    "filename": "Erfurt_Dom_Domtreppe_Severikirche_at_night"
+                },
+                {
+                    "title": "Machu Picchu",
+                    "filename": "80_-_Machu_Picchu_-_Juin_2009_-_edit.2"
+                },
+                {
+                    "title": "Corona Arch",
+                    "filename": "Corona_Arch"
+                },
+                {
+                    "title": "Brei\u00f0adalshei\u00f0i",
+                    "filename": "Brei\u00f0adalshei\u00f0i_01"
+                },
+                {
+                    "title": "Bas Relief",
+                    "filename": "Bas_Relief_Cuverville03_hq"
+                },
+                {
+                    "title": "Japan Expo",
+                    "filename": "Head_Phones_President_20110225_Japan_Expo_Sud_22"
+                },
+                {
+                    "title": "Isle Of Skye",
+                    "filename": "Isle_Of_Skye_A863_The_Cuillins"
+                },
+                {
+                    "title": "KITT",
+                    "filename": "KITT_Interior_at_Toronto_Auto_Show_2011"
+                },
+                {
+                    "title": "Kunts",
+                    "filename": "Kunts_04"
+                },
+                {
+                    "title": "Loewe von aspern",
+                    "filename": "Loewe_von_aspern2"
+                },
+                {
+                    "title": "Michigan Stadium",
+                    "filename": "Michigan_Stadium_2011"
+                },
+                {
+                    "title": "Orion Nebula",
+                    "filename": "Orion_Nebula_(M42)_part_HST_4800px"
+                },
+                {
+                    "title": "Panorama von Monaco",
+                    "filename": "Panorama_von_Monaco-La_Turbie"
+                },
+                {
+                    "title": "Otaria flavescens",
+                    "filename": "Otaria_flavescens_-_Rancho_Texas_Park_-_T\u00edas_-_Lanzarote_-PC31"
+                },
+                {
+                    "title": "Koln Night",
+                    "filename": "Koln-Night-GavinCato"
+                },
+                {
+                    "title": "JacquelineMegaw",
+                    "filename": "JacquelineMegaw"
+                },
+                {
+                    "title": "Irish Mannequin",
+                    "filename": "IrishMannequinNOLAHighsmith"
+                },
+                {
+                    "title": "Place Stanislas",
+                    "filename": "Place_Stanislas_-_Lumi\u00e8re"
+                },
+                {
+                    "title": "Linz cathedrale",
+                    "filename": "Linz-cathedrale"
+                },
+                {
+                    "title": "MagicKindom",
+                    "filename": "MagicKindom-highres-park-cc"
+                },
+                {
+                    "title": "Nan Lian Garden",
+                    "filename": "Nan_Lian_Garden_7645432"
+                },
+                {
+                    "title": "Polished slice of petrified wood",
+                    "filename": "Polished_slice_of_petrified_wood_(Large_Image)"
+                },
+                {
+                    "title": "Saint Catherine",
+                    "filename": "Saint_Catherine-Caravaggio_(1598)"
+                },
+                {
+                    "title": "Fort de Roppe",
+                    "filename": "Thomas_Bresson_-_Fort_de_Roppe_(abri-caverne)"
+                },
+                {
+                    "title": "Zoo de la Barben",
+                    "filename": "Zoo_de_la_Barben_20100605_048"
+                },
+                {
+                    "title": "La Tomatina",
+                    "filename": "La_Tomatina_(25.08.2010)_-_Spain__Bu\u00f1ol_21"
+                },
+                {
+                    "title": "Vintage car",
+                    "filename": "Red_Bull_Jungfrau_Stafette__10th_stage_-_vintage_cars_(2)"
+                },
+                {
+                    "title": "Exercises at the barre",
+                    "filename": "Exercises_at_the_barre__Prix_de_Lausanne_2010-2"
+                },
+                {
+                    "title": "Streptopelia orientalis",
+                    "filename": "Streptopelia_orientalis_-Japan-8"
+                },
+                {
+                    "title": "Porto deportivo",
+                    "filename": "Porto_deportivo_de_Vilagarc\u00eda_de_Arousa._Galiza-V24"
+                },
+                {
+                    "title": "Green Plaza",
+                    "filename": "\u0412\u0438\u0434_\u0438\u0437_Green_Plaza_065"
+                },
+                {
+                    "title": "Bodhi Baum",
+                    "filename": "Bodhi_Baum__Sri_Lanka"
+                },
+                {
+                    "title": "Unknown type crawler",
+                    "filename": "Un_known_type_crawler_(1)"
+                },
+                {
+                    "title": "Mountain",
+                    "filename": "Novafjellet__2009_09"
+                },
+                {
+                    "title": "Dirt road",
+                    "filename": "Road_to_\u00c5rstein__2010_September"
+                },
+                {
+                    "title": "Book",
+                    "filename": "Vocabulaire_de_l'acad\u00e9mie__1832_01"
+                },
+                {
+                    "title": "Pelpin cathedral",
+                    "filename": "20100701_Pelpin__cathedral__1"
+                },
+                {
+                    "title": "Euphagus cyanocephalus",
+                    "filename": "Euphagus_cyanocephalus_-Oakland__California__USA_-adult_male_with_chick-8c"
+                },
+                {
+                    "title": "Portugal vs Argentina",
+                    "filename": "Ricardo_Quaresma_(L)__Pablo_Zabaleta_(R)_\u2013_Portugal_vs._Argentina__9th_February_2011"
+                }
+            ]
+        }
+    }
+}
