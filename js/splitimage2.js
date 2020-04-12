@@ -246,13 +246,13 @@ function setImage(side, pathBase, codec, setText) {
 
         var canvas = canvases[side];
         canvas.getContext("2d").clearRect(0, 0, canvas.width, canvas.height);
-        var area = canvas.width * canvas.height;
-        setText((xhr.response.byteLength / 1024).toFixed(1) + " KiB", (xhr.response.byteLength * 8 / area).toFixed(2) + " bpp");
 
         var image = new Image();
         image.onload = function () {
             canvas.width = image.width;
             canvas.height = image.height;
+            var area = image.width * image.height;
+            setText((xhr.response.byteLength / 1024).toFixed(1) + " KiB", (xhr.response.byteLength * 8 / area).toFixed(2) + " bpp");
             canvas.getContext("2d").drawImage(image, 0, 0);
             processCanvasScale(canvas, side);
             window.URL.revokeObjectURL(blobPath);
