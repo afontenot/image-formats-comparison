@@ -12,6 +12,8 @@ The following changes have been made to the previous version:
  * A number of codecs from the previous version were dropped. These are Daala, KDU (JPEG2000), OpenJpeg (JPEG2000), PIK, VP9, and WebP. WebP was dropped because it doesn't support unsubsampled images, making it a bad candidate for a high quality photography codec. PIK was dropped because I couldn't get it running on my computer; I think it might require newer CPU features. I'd like to add it back in the future if possible. OpenJpeg was removed because the results seemed to be fairly low quality. KDU was removed because it crashed on input images with certain characters in the filename. I might work on adding it back later. As for Daala and VP9, I think their features have been mostly subsumed into newer codecs that current development effort is focused on.
  * **JPEGXL** was added to the comparison.
  * All codecs were updated to their latest available releases, see below.
+ * I fixed a bug where the settings weren't restored from the URL when refreshing or sharing a link.
+ * I fixed a bug where the image loaded first when the image was changed would have an incorrect bits / pixel calculation.
 
 The fork currently has the following flaws:
 
