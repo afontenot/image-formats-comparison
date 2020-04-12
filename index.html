@@ -87,6 +87,8 @@
             <li>A number of codecs from the previous version were dropped. These are Daala, KDU (JPEG2000), OpenJpeg (JPEG2000), PIK, VP9, and WebP. WebP was dropped because it doesn't support unsubsampled images, making it a bad candidate for a high quality photography codec. PIK was dropped because I couldn't get it running on my computer; I think it might require newer CPU features. I'd like to add it back in the future if possible. OpenJpeg was removed because the results seemed to be fairly low quality. KDU was removed because it crashed on input images with certain characters in the filename. I might work on adding it back later. As for Daala and VP9, I think their features have been mostly subsumed into newer codecs that current development effort is focused on.</li>
             <li><b>JPEGXL</b> was added to the comparison.</li>
             <li>All codecs were updated to their latest available releases, see below. This fixes <a href="https://github.com/WyohKnott/image-formats-comparison/issues/8" target="_blank">this issue</a>.</li>
+            <li>I fixed a bug where the settings weren't restored from the URL when refreshing or sharing a link.</li>
+            <li>I fixed a bug that caused images to frequntly have incorrect bits / pixel calculations.</li>
         </ul>
         <h2>Versions and Commands</h2>
         <p><b>AV1 (aom reference encoder 1.0.0.errata1):</b></p>
