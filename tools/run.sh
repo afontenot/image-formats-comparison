@@ -26,7 +26,7 @@ for file in */AV1/*.webm; do
     rm $file.y4m;
 done
 for file in */BPG/*.bpg; do
-    bpgdec -o ${file%.bpg} $file;
+    bpgdec -o ${file%.bpg}.png $file;
 done
 for file in */FLIF/*.flif; do
     flif $file ${file%.flif}.png;
