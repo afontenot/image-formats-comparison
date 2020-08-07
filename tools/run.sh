@@ -10,13 +10,13 @@
 
 # step 1: build other format sources
 for file in subset1/*.png; do 
-    ffmpeg -i $file ${file%.png}.y4m;
-    ffmpeg -i $file ${file%.png}.ppm;
+    ffmpeg -n -i $file ${file%.png}.y4m;
+    ffmpeg -n -i $file ${file%.png}.ppm;
 done
 
 # step 2: generate images
 # note: this will take a very long time!
-python convert.py subset1
+python compare.py subset1
 
 # step 3: create PNG for non-jpeg output
 cd output
