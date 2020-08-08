@@ -11,15 +11,17 @@ codecs = {
     "jpegxl": {
         "ext": ".jxl",
         "input_ext": ".png",
-        "cmd": "cjpegxl -s 9 -q {0} {1} {2}",
-        "low_q": 1,
-        "high_q": 99,
-        "quantizer": False
+        "cmd": "cjpegxl -s 8 -d {0} {1} {2}",
+        "low_q": 0,
+        "high_q": 299,
+        "quantizer": True,
+        "frac": 10
+        #"exact": "sz" # too slowww
     },
     "av1": {
-        "ext": ".webm",
+        "ext": ".ivf",
         "input_ext": ".y4m",
-        "cmd": "aomenc --i444 --passes=2 --end-usage=q --cq-level={0} -o {2} {1}",
+        "cmd": "aomenc --i444 --passes=2 --end-usage=q --cq-level={0} --ivf -o {2} {1}",
         "low_q": 4,
         "high_q": 63,
         "quantizer": True
@@ -55,15 +57,7 @@ codecs = {
         "low_q": 5,
         "high_q": 95,
         "quantizer": False
-    }#,
-    #"guetzli": {
-    #    "ext": ".jpg",
-    #    "input_ext": ".png",
-    #    "cmd": "guetzli --quality {0} {1} {2}",
-    #    "low_q": 5,
-    #    "high_q": 95,
-    #    "quantizer": False
-    #}
+    }
 }
 
 def mkdir(directory):
@@ -103,32 +97,44 @@ def search(args):
     mkdir(f"/tmp/{codec}_{image_src_name}/")
     cache = defaultdict(None)
     for target_size, sz_n in zip(target_sizes, size_names):
-        low, high = codecs[codec]["low_q"], codecs[codec]["high_q"]
-        best = low + (high - low) // 2
-        while low <= high:
-            middle = low + (high - low) // 2
-            if not cache.get(middle):
-                quantizer = codecs[codec]["quantizer"]
-                cache[middle] = convert(codec, image_src, middle)
-            fn, sz = cache[middle]
-            # special cases for reversed (quantizer) mode
-            if sz < target_size:
-                if codecs[codec]["quantizer"]:
-                    high = middle - 1
+        exact = codecs[codec].get("exact")
+        # codec has built-in ability to target a bitrate, no search
+        if exact is not None:
+            if exact == "sz":
+                image, sz = convert(codec, image_src, target_size)
+            copy(image, f"output/{sz_n}/{codec.upper()}/{image_src_name}{ext}")
+        else:
+            low, high = codecs[codec]["low_q"], codecs[codec]["high_q"]
+            best = low + (high - low) // 2
+            while low <= high:
+                middle = low + (high - low) // 2
+                if not cache.get(middle):
+                    # some codecs *require* support for fractional q
+                    # this is an ugly hack to support this
+                    quality = middle
+                    frac = codecs[codec].get("frac")
+                    if frac is not None:
+                        quality /= frac
+                    cache[middle] = convert(codec, image_src, quality)
+                fn, sz = cache[middle]
+                # special cases for reversed (quantizer) mode
+                if sz < target_size:
+                    if codecs[codec]["quantizer"]:
+                        high = middle - 1
+                    else:
+                        low = middle + 1
+                elif sz > target_size:
+                    if codecs[codec]["quantizer"]:
+                        low = middle + 1
+                    else:
+                        high = middle - 1
                 else:
-                    low = middle + 1
-            elif sz > target_size:
-                if codecs[codec]["quantizer"]:
-                    low = middle + 1
-                else:
-                    high = middle - 1
-            else:
-                best = middle
-                break
-            if abs(sz - target_size) < abs(cache[best][1] - target_size):
-                best = middle
-        ext = codecs[codec]["ext"]
-        copy(cache[best][0], f"output/{sz_n}/{codec.upper()}/{image_src_name}{ext}")
+                    best = middle
+                    break
+                if abs(sz - target_size) < abs(cache[best][1] - target_size):
+                    best = middle
+            ext = codecs[codec]["ext"]
+            copy(cache[best][0], f"output/{sz_n}/{codec.upper()}/{image_src_name}{ext}")
     rmtree(f"/tmp/{codec}_{image_src_name}/")
 
 if __name__ == "__main__":
@@ -155,7 +161,7 @@ if __name__ == "__main__":
         src = image[0]
         sz = image[1]
         for codec in codecs.keys():
-            jobs.append([codec, src, [sz // 20, sz // 40, sz // 80, sz // 160, sz // 320], size_names])
+            jobs.append([codec, src, [sz // 20, sz // 40, sz // 80, sz // 160], size_names])
 
     # stage 2: run jobs
     with Pool(8) as p:
