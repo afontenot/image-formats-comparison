@@ -20,10 +20,13 @@ python compare.py subset1
 
 # step 3: create PNG for non-jpeg output
 cd output
-for file in */AV1/*.webm; do
+for file in */AV1/*.ivf; do
     aomdec $file -o $file.y4m;
-    ffmpeg -i $file.y4m ${file%.webm.y4m}.png;
+    ffmpeg -i $file.y4m ${file%.ivf}.png;
     rm $file.y4m;
+    # also put AV1 in standard container 
+    MP4Box -add-image $file:primary -ab avif -ab miaf -new ${file%.ivf}.avif;
+    rm $file;
 done
 for file in */BPG/*.bpg; do
     bpgdec -o ${file%.bpg}.png $file;
@@ -35,7 +38,9 @@ for file in */JPEGXL/*.jxl; do
     djpegxl $file ${file%.flif}.png;
 done
 for file in */JPEGXR/*.jxr; do
-    JxrDecApp -o ${file%.jxr}.png -i $file;
+    JxrDecApp -o $file.bmp -i $file;
+    ffmpeg -i $file.bmp ${file%.jxr}.png;
+    rm $file.bmp;
 done
 
 # step 4: recompress PNG for web upload
