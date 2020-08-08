@@ -35,7 +35,7 @@ for file in */FLIF/*.flif; do
     flif $file ${file%.flif}.png;
 done
 for file in */JPEGXL/*.jxl; do
-    djpegxl $file ${file%.flif}.png;
+    djpegxl $file ${file%.jxl}.png;
 done
 for file in */JPEGXR/*.jxr; do
     JxrDecApp -o $file.bmp -i $file;
