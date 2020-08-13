@@ -3,7 +3,7 @@
         "subset1": {
             "format": [
                 {
-                    "extension": "webm",
+                    "extension": "avif",
                     "name": "AV1"
                 },
                 {
