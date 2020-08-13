@@ -11,7 +11,7 @@ codecs = {
     "jpegxl": {
         "ext": ".jxl",
         "input_ext": ".png",
-        "cmd": "cjpegxl -s 8 -d {0} {1} {2}",
+        "cmd": "cjpegxl -s 9 -d {0} {1} {2}",
         "low_q": 0,
         "high_q": 299,
         "quantizer": True,
@@ -53,7 +53,7 @@ codecs = {
     "mozjpeg": {
         "ext": ".jpg",
         "input_ext": ".png",
-        "cmd": "cjpeg -quality {0} -outfile {2} {1}",
+        "cmd": "cjpeg -sample 1x1 -quality {0} -outfile {2} {1}",
         "low_q": 5,
         "high_q": 95,
         "quantizer": False
