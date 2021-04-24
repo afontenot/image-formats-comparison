@@ -11,12 +11,10 @@ codecs = {
     "jpegxl": {
         "ext": ".jxl",
         "input_ext": ".png",
-        "cmd": "cjpegxl -s 9 -d {0} {1} {2}",
-        "low_q": 0,
-        "high_q": 299,
-        "quantizer": True,
-        "frac": 10
-        #"exact": "sz" # too slowww
+        "cmd": "cjxl -s 9 -q {0} {1} {2}",
+        "low_q": -100,
+        "high_q": 100,
+        "quantizer": False
     },
     "av1": {
         "ext": ".ivf",
