@@ -10,8 +10,8 @@
 
 # step 1: build other format sources
 for file in subset1/*.png; do 
-    ffmpeg -n -i $file ${file%.png}.y4m;
-    ffmpeg -n -i $file ${file%.png}.ppm;
+    ffmpeg -loglevel 31 -n -i $file ${file%.png}.y4m;
+    ffmpeg -loglevel 31 -n -i $file ${file%.png}.ppm;
 done
 
 # step 2: generate images
@@ -35,7 +35,7 @@ for file in */FLIF/*.flif; do
     flif $file ${file%.flif}.png;
 done
 for file in */JPEGXL/*.jxl; do
-    djpegxl $file ${file%.jxl}.png;
+    djxl $file ${file%.jxl}.png;
 done
 for file in */JPEGXR/*.jxr; do
     JxrDecApp -o $file.bmp -i $file;
