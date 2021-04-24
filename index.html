@@ -92,17 +92,17 @@
             <li>I fixed a bug that caused images to frequently have incorrect bits / pixel calculations.</li>
         </ul>
         <h2>Versions and Commands</h2>
-        <p><b>AV1 (aom reference encoder 2.0.0):</b></p>
+        <p><b>AV1 (aom reference encoder 3.0.0):</b></p>
         <p><pre>aomenc --i444 --passes=2 --end-usage=q --cq-level={quality} --ivf -o {output.ivf} {input.y4m}</pre></p>
         <p><b>BPG (libbpg 0.9.8):</b></p>
         <p><pre>bpgenc -m 9 -f 444 -q {quality} -o {output.bpg} {input.png}</pre></p>
         <p><b>FLIF (FLIF 0.3):</b></p>
         <p><pre>flif -E 95 -Q {quality} {input.png} {output.flif}</pre></p>
-        <p><b>JPEGXL (libjpeg-xl git:e9464f40 2020-08-11):</b></p>
+        <p><b>JPEGXL (libjpeg-xl git:ab7c5e9b 2021-04-21):</b></p>
         <p><pre>cjxl -s 9 -q {quality} {input.png} {output.jxl}</pre></p>
         <p><b>JPEGXR (jxrlib 0.2.1):</b></p>
         <p><pre>JxrEncApp -d 3 -q {quality} -o {output.jxr} -i {input.ppm}</pre></p>
-        <p><b>MozJPEG (mozjpeg 3.3.1):</b></p>
+        <p><b>MozJPEG (mozjpeg 4.0.3):</b></p>
         <p><pre>cjpeg -sample 1x1 -quality {quality} -outfile {output.jpg} {input.png}</pre></p>
     </div>
 
