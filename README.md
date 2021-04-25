@@ -2,18 +2,9 @@ image-formats-comparison
 ==================
 http://afontenot.github.io/image-formats-comparison/
 
-This is a clean fork of [the version by WyohKnott](https://github.com/WyohKnott/image-formats-comparison), removing unnecessary files and the large git history.
+This is a clean fork of [the version by WyohKnott](https://github.com/WyohKnott/image-formats-comparison), removing unnecessary files and the large git history, along with a large number of improvements.
 
-The following changes have been made to the previous version:
-
- * Instead of using the original Daala test images, which are 4:2:0 subsampled, I recreated the image set from the original high-res sources, downscaling to the same sized source images as the Daala set, but not subsampled (4:4:4).
- * I wrote my own script for generating the comparison images, which uses a binary search to quickly find the quality level that generates the image with the closest file size to the target. You can find my work in the `tools` directory.
- * All images that can't be rendered by the browser are now served as PNGs, instead of trying (in some cases) to decode with Javascript. The images were heavily compressed (losslessly) to take up less space, and this requires less decoding power on the viewer end.
- * A number of codecs from the previous version were dropped. These are Daala, KDU (JPEG2000), OpenJpeg (JPEG2000), PIK, VP9, and WebP. WebP was dropped because it doesn't support unsubsampled images, making it a bad candidate for a high quality photography codec. PIK was dropped because I couldn't get it running on my computer; I think it might require newer CPU features. I'd like to add it back in the future if possible. OpenJpeg was removed because the results seemed to be fairly low quality. KDU was removed because it crashed on input images with certain characters in the filename. I might work on adding it back later. As for Daala and VP9, I think their features have been mostly subsumed into newer codecs that current development effort is focused on.
- * **JPEGXL** was added to the comparison.
- * All codecs were updated to their latest available releases, see below.
- * I fixed a bug where the settings weren't restored from the URL when refreshing or sharing a link.
- * I fixed a bug where the image loaded first when the image was changed would have an incorrect bits / pixel calculation.
+Changes I have made are all documented [on the main page of the app](http://afontenot.github.io/image-formats-comparison/).
 
 The fork currently has the following flaws:
 
