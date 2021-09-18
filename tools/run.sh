@@ -8,10 +8,12 @@
 # Obviously, all these programs should be their latest versions
 # and somewhere on your $PATH.
 
+set -e
+
 # step 1: build other format sources
 for file in subset1/*.png; do 
-    ffmpeg -loglevel 31 -n -i $file ${file%.png}.y4m;
-    ffmpeg -loglevel 31 -n -i $file ${file%.png}.ppm;
+    # errors here are intended if the file already exists
+    ffmpeg -loglevel 31 -n -i $file ${file%.png}.ppm || true;
 done
 
 # step 2: generate images
@@ -20,13 +22,8 @@ python compare.py subset1
 
 # step 3: create PNG for non-jpeg output
 cd output
-for file in */AV1/*.ivf; do
-    aomdec $file -o $file.y4m;
-    ffmpeg -i $file.y4m ${file%.ivf}.png;
-    rm $file.y4m;
-    # also put AV1 in standard container 
-    MP4Box -add-image $file:primary -ab avif -ab miaf -new ${file%.ivf}.avif;
-    rm $file;
+for file in */AV1/*.avif; do
+    avifdec $file ${file%.avif}.png;
 done
 for file in */BPG/*.bpg; do
     bpgdec -o ${file%.bpg}.png $file;

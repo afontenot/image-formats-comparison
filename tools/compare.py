@@ -17,10 +17,10 @@ codecs = {
         "quantizer": False
     },
     "av1": {
-        "ext": ".ivf",
-        "input_ext": ".y4m",
-        "cmd": "aomenc --i444 --passes=2 --end-usage=q --cq-level={0} --ivf -o {2} {1}",
-        "low_q": 4,
+        "ext": ".avif",
+        "input_ext": ".png",
+        "cmd": 'avifenc --depth 8 --yuv 444 --range full --speed 0 -c aom --min {0} --max {0} {1} {2}',
+        "low_q": 0,
         "high_q": 63,
         "quantizer": True
     },
@@ -80,10 +80,10 @@ def convert(codec, image_src, q):
     image_src += codecs[codec]["input_ext"]
     cmd = codecs[codec]["cmd"].format(q, image_src, image_out)
     print("Running:", cmd)
-    FNULL = open(os.devnull, 'w')
-    rv = subprocess.call(split(cmd), stdout=FNULL, stderr=FNULL)
-    if rv != 0:
+    rv = subprocess.run(split(cmd), capture_output=True)
+    if rv.returncode != 0:
         print("ERROR:", cmd)
+        print(rv.stderr)
         return None
     sz = os.path.getsize(image_out)
     return image_out, sz
@@ -142,7 +142,7 @@ if __name__ == "__main__":
         sys.exit()
     
     path_to_images = args[1]
-    base_files = glob(path_to_images + "/*.y4m")
+    base_files = glob(path_to_images + "/*.png")
     images = [(fn[:-4], os.path.getsize(fn)) for fn in base_files]
     
     # stage zero: set up dirs
