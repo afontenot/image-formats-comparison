@@ -355,6 +355,6 @@ document.addEventListener("DOMContentLoaded", function () {
             }
             subsetChange();
             urlFolder = "comparisonfiles/" + getSelValue(options.subset, 'value') + "/";
-            setFile();
+            //setFile();
         });
 });
