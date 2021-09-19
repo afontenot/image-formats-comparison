@@ -73,6 +73,15 @@ def split(cmd):
     lex.commenters = ''
     return list(lex)
 
+def get_image_size_from_ppm(ppm_fn):
+    with open(ppm_fn, 'rb') as f:
+        f.readline()
+        b = f.readline()
+        s = b.decode().strip().split()
+        i = [int(x) for x in s]
+        # *3 channels, *8 bpp, /8 bits per byte
+        return i[0] * i[1] * 3
+
 def convert(codec, image_src, q):
     image_src_name = os.path.basename(image_src)
     ext = codecs[codec]["ext"]
@@ -142,8 +151,9 @@ if __name__ == "__main__":
         sys.exit()
     
     path_to_images = args[1]
-    base_files = glob(path_to_images + "/*.png")
-    images = [(fn[:-4], os.path.getsize(fn)) for fn in base_files]
+    base_files = glob(path_to_images + "/*.ppm")
+    images = [fn[:-4] for fn in base_files]
+    image_sizes = [get_image_size_from_ppm(fn) for fn in base_files]
     
     # stage zero: set up dirs
     size_names = ["large", "medium", "small", "tiny"]
@@ -155,11 +165,9 @@ if __name__ == "__main__":
 
     # stage one: build job pool
     jobs = []
-    for image in images:
-        src = image[0]
-        sz = image[1]
+    for image, sz in zip(images, image_sizes):
         for codec in codecs.keys():
-            jobs.append([codec, src, [sz // 20, sz // 40, sz // 80, sz // 160], size_names])
+            jobs.append([codec, image, [sz // 20, sz // 40, sz // 80, sz // 160], size_names])
 
     # stage 2: run jobs
     with Pool(8) as p:
