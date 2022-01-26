@@ -11,7 +11,7 @@ codecs = {
     "jpegxl": {
         "ext": ".jxl",
         "input_ext": ".png",
-        "cmd": "cjxl -s 9 -q {0} {1} {2}",
+        "cmd": "cjxl --resampling 1 -s 9 -q {0} {1} {2}",
         "low_q": -100,
         "high_q": 100,
         "quantizer": False
