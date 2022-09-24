@@ -1,4 +1,5 @@
 import os
+import re
 import shlex
 import subprocess
 import sys
@@ -7,11 +8,16 @@ from glob import glob
 from multiprocessing import Pool
 from shutil import copy, rmtree
 
+
+jxl_size_cmd = "cjxl --resampling 1 -e 9 {0}"
+jxl_size_regex = re.compile("Compressed to (\d+) bytes")
+
+
 codecs = {
     "jpegxl": {
         "ext": ".jxl",
         "input_ext": ".png",
-        "cmd": "cjxl --resampling 1 -s 9 -q {0} {1} {2}",
+        "cmd": "cjxl --resampling 1 -e 9 -q {0} {1} {2}",
         "low_q": -100,
         "high_q": 100,
         "quantizer": False
@@ -19,7 +25,7 @@ codecs = {
     "av1": {
         "ext": ".avif",
         "input_ext": ".png",
-        "cmd": 'avifenc --depth 8 --yuv 444 --range full --speed 0 -c aom --min {0} --max {0} {1} {2}',
+        "cmd": 'avifenc --depth 10 --yuv 444 --range full --speed 0 -c aom --min {0} --max {0} {1} {2}',
         "low_q": 0,
         "high_q": 63,
         "quantizer": True
@@ -58,6 +64,7 @@ codecs = {
     }
 }
 
+
 def mkdir(directory):
     try:
         os.mkdir(directory)
@@ -66,6 +73,7 @@ def mkdir(directory):
     except Exception as e:
         return e
 
+
 def split(cmd):
     lex = shlex.shlex(cmd)
     lex.quotes = '"'
@@ -73,14 +81,27 @@ def split(cmd):
     lex.commenters = ''
     return list(lex)
 
-def get_image_size_from_ppm(ppm_fn):
-    with open(ppm_fn, 'rb') as f:
-        f.readline()
-        b = f.readline()
-        s = b.decode().strip().split()
-        i = [int(x) for x in s]
-        # *3 channels, *8 bpp, /8 bits per byte
-        return i[0] * i[1] * 3
+
+def run_external_cmd(cmd):
+    print("Running:", cmd)
+    rv = subprocess.run(split(cmd), capture_output=True)
+    if rv.returncode != 0:
+        print("ERROR:", cmd)
+        print(rv.stderr)
+        return None
+    return rv
+
+
+def get_target_size(image):
+    cmd = jxl_size_cmd.format(image + ".png")
+    rv = run_external_cmd(cmd)
+    return int(jxl_size_regex.search(rv.stderr.decode("utf-8")).groups()[0])
+
+
+def get_target_sizes(images):
+    with Pool(8) as p:
+        return p.map(get_target_size, images, chunksize=1)
+
 
 def convert(codec, image_src, q):
     image_src_name = os.path.basename(image_src)
@@ -88,12 +109,7 @@ def convert(codec, image_src, q):
     image_out = f"/tmp/{codec}_{image_src_name}/{codec}_{image_src_name}_{q}{ext}"
     image_src += codecs[codec]["input_ext"]
     cmd = codecs[codec]["cmd"].format(q, image_src, image_out)
-    print("Running:", cmd)
-    rv = subprocess.run(split(cmd), capture_output=True)
-    if rv.returncode != 0:
-        print("ERROR:", cmd)
-        print(rv.stderr)
-        return None
+    rv = run_external_cmd(cmd)
     sz = os.path.getsize(image_out)
     return image_out, sz
 
@@ -153,7 +169,8 @@ if __name__ == "__main__":
     path_to_images = args[1]
     base_files = glob(path_to_images + "/*.ppm")
     images = [fn[:-4] for fn in base_files]
-    image_sizes = [get_image_size_from_ppm(fn) for fn in base_files]
+    print("Getting target size for large image variants...")
+    target_sizes = get_target_sizes(images) # [get_target_size(image) for image in images]
     
     # stage zero: set up dirs
     size_names = ["large", "medium", "small", "tiny"]
@@ -165,9 +182,9 @@ if __name__ == "__main__":
 
     # stage one: build job pool
     jobs = []
-    for image, sz in zip(images, image_sizes):
+    for image, sz in zip(images, target_sizes):
         for codec in codecs.keys():
-            jobs.append([codec, image, [sz // 20, sz // 40, sz // 80, sz // 160], size_names])
+            jobs.append([codec, image, [sz, sz // 2, sz // 3, sz // 4], size_names])
 
     # stage 2: run jobs
     with Pool(8) as p:

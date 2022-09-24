@@ -72,12 +72,13 @@
         <p>The results from JPEG XL are complicated, because quality setting actually dynamically chooses between normal mode and "modular" mode, so you're seeing two different modes of operation depending on what the quality level is. There's some chance that this behavior isn't monotonic, but it should be okay at high quality levels and it's better than the alternative (which was previously only using the normal mode).</p>
         <p>This page is based on <a href="http://people.xiph.org/~xiphmont/demo/daala/update1-tool2b.shtml" target="_blank">Xiph.org's</a> Daala comparison page. <a href="https://github.com/xooyoozoo/yolo-octo-bugfixes" target="_blank">Originally developed by xooyoozoo</a>. This version is a fork of <a href="https://wyohknott.github.io/image-formats-comparison/" target="_blank">WyohKnott's improved version</a> with additional updates and modifications (detailed below).
         <p>A list of sources for the images can be found in <a href="https://afontenot.github.io/image-formats-comparison/cite_images.txt" target="_blank">this text file</a>.</p>
-        <p>Last updated: January 2022.</p>
+        <p>Last updated: September 2022.</p>
         <h2>Changes vs. WyohKnott</h2>
         <ul>
             <li>Instead of using the original Daala test images, which are 4:2:0 subsampled, I recreated the image set from the original high-res sources, downscaling to the same sized source images as the Daala set, but not subsampled (4:4:4). This fixes <a href="https://github.com/WyohKnott/image-formats-comparison/issues/4" title="Original images may be YUV420 subsampled" target="_blank">this bug</a>.</li>
             <li>I wrote my own script for generating the comparison images which uses a binary search to quickly find the quality level that generates the image with the closest file size to the target. You can find that here: <a href="https://github.com/afontenot/image-formats-comparison" title="Include code for reproducing results" target="_blank">here</a>. This fixes <a href="https://github.com/WyohKnott/image-formats-comparison/issues/1">this issue</a>.</li>
             <li><b>All</b> images that can't be rendered by the browser are now served as PNGs, instead of trying (in some cases) to decode with Javascript. The images were heavily compressed (losslessly) to take up less space, and this requires less decoding power on the viewer end. This change fixes <a href="https://github.com/WyohKnott/image-formats-comparison/issues/10" title="Misleading resampling" target="_blank">this bug</a> and also <a href="https://github.com/WyohKnott/image-formats-comparison/issues/11" title="In Firefox, some images are rendered without color management" target="_blank">this one</a>.</li>
+            <li>The AVIF images are generated with a bit depth of 10. Reportedly, AV1 suffers from problems with the quantization that results in banding at bit depth 8. The improvement was not as significant as I have seen reported elsewhere; we might return to 8 bit in the future after further testing. Banding did seem to improve a little, but details seem slightly worse.</li>
             <li>A number of codecs from the previous version were dropped. I might accept patches to add these or other codecs.<ul>
                 <li>Daala: not a common codec, and most effort is now on AV1 / AVIF.</li>
                 <li>KDU (JPEG2000): dropped because it crashes when given files with certain characters in the path.</li>
@@ -94,17 +95,17 @@
             <li>I completed a partial rewrite of the canvas code making the comparison tool <b>much</b> faster, and <a href="https://github.com/WyohKnott/image-formats-comparison/issues/12" target="_blank">fixed a bug</a> where using a hidden canvas to resize the image would result in incorrect colors on some browsers. As part of this, I removed the Lanczos resizing feature in favor of integer only (nearest neigbor) resizing, which gives a more accurate presentation of the codecs.</li>
         </ul>
         <h2>Versions and Commands</h2>
-        <p><b>AV1 (avifenc 0.9.3 + aom v3.2.0):</b></p>
-        <p><pre>avifenc --depth 8 --yuv 444 --range full --speed 0 -c aom --min {quality} --max {quality} {input.png} {output.avif}</pre></p>
+        <p><b>AV1 (avifenc 0.10.1 + aom v3.4.0):</b></p>
+        <p><pre>avifenc --depth 10 --yuv 444 --range full --speed 0 -c aom --min {quality} --max {quality} {input.png} {output.avif}</pre></p>
         <p><b>BPG (libbpg 0.9.8):</b></p>
         <p><pre>bpgenc -m 9 -f 444 -q {quality} -o {output.bpg} {input.png}</pre></p>
         <p><b>FLIF (FLIF 0.4):</b></p>
         <p><pre>flif -E 95 -Q {quality} {input.png} {output.flif}</pre></p>
-        <p><b>JPEGXL (libjxl 0.6.1):</b></p>
-        <p><pre>cjxl --resampling 1 -s 9 -q {quality} {input.png} {output.jxl}</pre></p>
-        <p><b>JPEGXR (jxrlib 0.2.1):</b></p>
+        <p><b>JPEGXL (libjxl 0.7.0):</b></p>
+        <p><pre>cjxl --resampling 1 -e 9 -q {quality} {input.png} {output.jxl}</pre></p>
+        <p><b>JPEGXR (jxrlib 0.2.4):</b></p>
         <p><pre>JxrEncApp -d 3 -q {quality} -o {output.jxr} -i {input.ppm}</pre></p>
-        <p><b>MozJPEG (mozjpeg 4.0.3):</b></p>
+        <p><b>MozJPEG (mozjpeg 4.1.1):</b></p>
         <p><pre>cjpeg -sample 1x1 -quality {quality} -outfile {output.jpg} {input.png}</pre></p>
     </div>
 
