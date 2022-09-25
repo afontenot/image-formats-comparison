@@ -84,16 +84,24 @@ def split(cmd):
 
 
 def run_external_cmd(cmd):
-    print("Running:", cmd)
     rv = subprocess.run(split(cmd), capture_output=True)
     if rv.returncode != 0:
-        print("ERROR:", cmd)
+        print("\nERROR:", cmd)
         print(rv.stderr)
         return None
     return rv
 
 
+# not thread safe, but we don't care about a little jank
+def update_progress(i, end, codec, path):
+    pct = i * 100 // end
+    line = "\r\x1b[0K" + f"[{pct:3}%] <{codec}> {path}"
+    print(line[:80], end="")
+
+
 def get_target_size(image):
+    line = "\r\x1b[0K" + f"Getting size for {image}"
+    print(line[:80], end="")
     cmd = jxl_size_cmd.format(image + ".png")
     rv = run_external_cmd(cmd)
     return int(jxl_size_regex.search(rv.stderr.decode("utf-8")).groups()[0])
@@ -116,8 +124,9 @@ def convert(codec, image_src, q):
 
 
 def search(args):
-    codec, image_src, target_sizes, size_names = args
+    index, count, codec, image_src, target_sizes, size_names = args
     image_src_name = os.path.basename(image_src)
+    update_progress(index, count, codec, image_src_name)
     mkdir(f"/tmp/{codec}_{image_src_name}/")
     cache = defaultdict(None)
     for target_size, sz_n in zip(target_sizes, size_names):
@@ -161,6 +170,7 @@ def search(args):
             copy(cache[best][0], f"output/{sz_n}/{codec.upper()}/{image_src_name}{ext}")
     rmtree(f"/tmp/{codec}_{image_src_name}/")
 
+
 if __name__ == "__main__":
     args = sys.argv
     if len(args) < 2:
@@ -171,9 +181,10 @@ if __name__ == "__main__":
     base_files = glob(path_to_images + "/*.ppm")
     images = [fn[:-4] for fn in base_files]
     print("Getting target size for large image variants...")
-    target_sizes = get_target_sizes(images) # [get_target_size(image) for image in images]
+    target_sizes = get_target_sizes(images)
     
     # stage zero: set up dirs
+    print("\n\nSetting up search jobs...")
     size_names = ["large", "medium", "small", "tiny"]
     mkdir("output")
     for sz_n in size_names:
@@ -183,11 +194,15 @@ if __name__ == "__main__":
 
     # stage one: build job pool
     jobs = []
+    job_count = len(images) * len(codecs)
+    idx = 0
     for image, sz in zip(images, target_sizes):
         for codec in codecs.keys():
-            jobs.append([codec, image, [sz, sz // 2, sz // 3, sz // 4], size_names])
+            idx += 1
+            jobs.append([idx, job_count, codec, image, [sz, sz // 2, sz // 3, sz // 4], size_names])
 
     # stage 2: run jobs
+    print("Running search jobs...")
     with Pool(8) as p:
         p.map(search, jobs, chunksize=1)
 
