@@ -23,7 +23,7 @@ python compare.py subset1
 # step 3: create PNG for non-jpeg output
 cd output
 for file in */AV1/*.avif; do
-    avifdec $file ${file%.avif}.png;
+    avifdec -d 8 $file ${file%.avif}.png;
 done
 for file in */BPG/*.bpg; do
     bpgdec -o ${file%.bpg}.png $file;
