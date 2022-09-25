@@ -17,10 +17,11 @@ codecs = {
     "jpegxl": {
         "ext": ".jxl",
         "input_ext": ".png",
-        "cmd": "cjxl --resampling 1 -e 9 -q {0} {1} {2}",
-        "low_q": -100,
-        "high_q": 100,
-        "quantizer": False
+        "cmd": "cjxl --resampling 1 -e 9 -d {0} {1} {2}",
+        "low_q": 0,
+        "high_q": 250,
+        "frac": 10,
+        "quantizer": True
     },
     "av1": {
         "ext": ".avif",
