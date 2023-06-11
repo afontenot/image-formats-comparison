@@ -9,7 +9,7 @@ from multiprocessing import Pool
 from shutil import copy, rmtree
 
 
-jxl_size_cmd = "cjxl --resampling 1 -e 9 {0}"
+jxl_size_cmd = "cjxl --disable_output --resampling 1 -e 9 {0}"
 jxl_size_regex = re.compile("Compressed to (\d+) bytes")
 
 
