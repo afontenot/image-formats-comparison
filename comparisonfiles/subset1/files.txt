@@ -1,0 +1,2238 @@
+.
+├── files.txt
+├── large
+│   ├── AV1
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.avif
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.png
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.avif
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.png
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.avif
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.png
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.avif
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.png
+│   │   ├── 89_-_Vézelay_Basilique_2.avif
+│   │   ├── 89_-_Vézelay_Basilique_2.png
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.avif
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.png
+│   │   ├── Adventure_with_the_Windmills.avif
+│   │   ├── Adventure_with_the_Windmills.png
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.avif
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.png
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).avif
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).png
+│   │   ├── Bath_from_alexandra_park.avif
+│   │   ├── Bath_from_alexandra_park.png
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.avif
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.png
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).avif
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).png
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.avif
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.png
+│   │   ├── Citroen_C4F.avif
+│   │   ├── Citroen_C4F.png
+│   │   ├── Claudette_14_july_2003_1920Z.avif
+│   │   ├── Claudette_14_july_2003_1920Z.png
+│   │   ├── Clovisfest.avif
+│   │   ├── Clovisfest.png
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.avif
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.png
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.avif
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.png
+│   │   ├── Eaglefairy_hst_big.avif
+│   │   ├── Eaglefairy_hst_big.png
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.avif
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.png
+│   │   ├── End_of_Show_3.avif
+│   │   ├── End_of_Show_3.png
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.avif
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.png
+│   │   ├── Fruits_oranges,_jardin_japonais_2.avif
+│   │   ├── Fruits_oranges,_jardin_japonais_2.png
+│   │   ├── GrimburgwalAmsterdam.avif
+│   │   ├── GrimburgwalAmsterdam.png
+│   │   ├── IENA_-_Avenches_-_6.avif
+│   │   ├── IENA_-_Avenches_-_6.png
+│   │   ├── Kopenhagen,_Tivoli-9120.avif
+│   │   ├── Kopenhagen,_Tivoli-9120.png
+│   │   ├── Krøyer_PS.avif
+│   │   ├── Krøyer_PS.png
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.avif
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.png
+│   │   ├── MEG_20110701_Japan_Expo_02.avif
+│   │   ├── MEG_20110701_Japan_Expo_02.png
+│   │   ├── Moscow_July_2011-4a.avif
+│   │   ├── Moscow_July_2011-4a.png
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.avif
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.png
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.avif
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.png
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.avif
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.png
+│   │   ├── Ohashi0806shield.avif
+│   │   ├── Ohashi0806shield.png
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.avif
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.png
+│   │   ├── Reykjavík_03.avif
+│   │   ├── Reykjavík_03.png
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.avif
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.png
+│   │   ├── Sking.avif
+│   │   ├── Sking.png
+│   │   ├── Southern_pacific_1215.avif
+│   │   ├── Southern_pacific_1215.png
+│   │   ├── Steinway_Vienna_panoramic.avif
+│   │   ├── Steinway_Vienna_panoramic.png
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.avif
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.png
+│   │   ├── Swallowtail_05_06_07.avif
+│   │   ├── Swallowtail_05_06_07.png
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.avif
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.png
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.avif
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.png
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.avif
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.png
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.avif
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.png
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.avif
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.png
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.avif
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.png
+│   │   ├── White_Dune_-_Mui_Ne.avif
+│   │   └── White_Dune_-_Mui_Ne.png
+│   ├── BPG
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.bpg
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.png
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.bpg
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.png
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.bpg
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.png
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.bpg
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.png
+│   │   ├── 89_-_Vézelay_Basilique_2.bpg
+│   │   ├── 89_-_Vézelay_Basilique_2.png
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.bpg
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.png
+│   │   ├── Adventure_with_the_Windmills.bpg
+│   │   ├── Adventure_with_the_Windmills.png
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.bpg
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.png
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).bpg
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).png
+│   │   ├── Bath_from_alexandra_park.bpg
+│   │   ├── Bath_from_alexandra_park.png
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.bpg
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.png
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).bpg
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).png
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.bpg
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.png
+│   │   ├── Citroen_C4F.bpg
+│   │   ├── Citroen_C4F.png
+│   │   ├── Claudette_14_july_2003_1920Z.bpg
+│   │   ├── Claudette_14_july_2003_1920Z.png
+│   │   ├── Clovisfest.bpg
+│   │   ├── Clovisfest.png
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.bpg
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.png
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.bpg
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.png
+│   │   ├── Eaglefairy_hst_big.bpg
+│   │   ├── Eaglefairy_hst_big.png
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.bpg
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.png
+│   │   ├── End_of_Show_3.bpg
+│   │   ├── End_of_Show_3.png
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.bpg
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.png
+│   │   ├── Fruits_oranges,_jardin_japonais_2.bpg
+│   │   ├── Fruits_oranges,_jardin_japonais_2.png
+│   │   ├── GrimburgwalAmsterdam.bpg
+│   │   ├── GrimburgwalAmsterdam.png
+│   │   ├── IENA_-_Avenches_-_6.bpg
+│   │   ├── IENA_-_Avenches_-_6.png
+│   │   ├── Kopenhagen,_Tivoli-9120.bpg
+│   │   ├── Kopenhagen,_Tivoli-9120.png
+│   │   ├── Krøyer_PS.bpg
+│   │   ├── Krøyer_PS.png
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.bpg
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.png
+│   │   ├── MEG_20110701_Japan_Expo_02.bpg
+│   │   ├── MEG_20110701_Japan_Expo_02.png
+│   │   ├── Moscow_July_2011-4a.bpg
+│   │   ├── Moscow_July_2011-4a.png
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.bpg
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.png
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.bpg
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.png
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.bpg
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.png
+│   │   ├── Ohashi0806shield.bpg
+│   │   ├── Ohashi0806shield.png
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.bpg
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.png
+│   │   ├── Reykjavík_03.bpg
+│   │   ├── Reykjavík_03.png
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.bpg
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.png
+│   │   ├── Sking.bpg
+│   │   ├── Sking.png
+│   │   ├── Southern_pacific_1215.bpg
+│   │   ├── Southern_pacific_1215.png
+│   │   ├── Steinway_Vienna_panoramic.bpg
+│   │   ├── Steinway_Vienna_panoramic.png
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.bpg
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.png
+│   │   ├── Swallowtail_05_06_07.bpg
+│   │   ├── Swallowtail_05_06_07.png
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.bpg
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.png
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.bpg
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.png
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.bpg
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.png
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.bpg
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.png
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.bpg
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.png
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.bpg
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.png
+│   │   ├── White_Dune_-_Mui_Ne.bpg
+│   │   └── White_Dune_-_Mui_Ne.png
+│   ├── FLIF
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.flif
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.png
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.flif
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.png
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.flif
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.png
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.flif
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.png
+│   │   ├── 89_-_Vézelay_Basilique_2.flif
+│   │   ├── 89_-_Vézelay_Basilique_2.png
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.flif
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.png
+│   │   ├── Adventure_with_the_Windmills.flif
+│   │   ├── Adventure_with_the_Windmills.png
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.flif
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.png
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).flif
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).png
+│   │   ├── Bath_from_alexandra_park.flif
+│   │   ├── Bath_from_alexandra_park.png
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.flif
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.png
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).flif
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).png
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.flif
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.png
+│   │   ├── Citroen_C4F.flif
+│   │   ├── Citroen_C4F.png
+│   │   ├── Claudette_14_july_2003_1920Z.flif
+│   │   ├── Claudette_14_july_2003_1920Z.png
+│   │   ├── Clovisfest.flif
+│   │   ├── Clovisfest.png
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.flif
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.png
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.flif
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.png
+│   │   ├── Eaglefairy_hst_big.flif
+│   │   ├── Eaglefairy_hst_big.png
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.flif
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.png
+│   │   ├── End_of_Show_3.flif
+│   │   ├── End_of_Show_3.png
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.flif
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.png
+│   │   ├── Fruits_oranges,_jardin_japonais_2.flif
+│   │   ├── Fruits_oranges,_jardin_japonais_2.png
+│   │   ├── GrimburgwalAmsterdam.flif
+│   │   ├── GrimburgwalAmsterdam.png
+│   │   ├── IENA_-_Avenches_-_6.flif
+│   │   ├── IENA_-_Avenches_-_6.png
+│   │   ├── Kopenhagen,_Tivoli-9120.flif
+│   │   ├── Kopenhagen,_Tivoli-9120.png
+│   │   ├── Krøyer_PS.flif
+│   │   ├── Krøyer_PS.png
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.flif
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.png
+│   │   ├── MEG_20110701_Japan_Expo_02.flif
+│   │   ├── MEG_20110701_Japan_Expo_02.png
+│   │   ├── Moscow_July_2011-4a.flif
+│   │   ├── Moscow_July_2011-4a.png
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.flif
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.png
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.flif
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.png
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.flif
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.png
+│   │   ├── Ohashi0806shield.flif
+│   │   ├── Ohashi0806shield.png
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.flif
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.png
+│   │   ├── Reykjavík_03.flif
+│   │   ├── Reykjavík_03.png
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.flif
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.png
+│   │   ├── Sking.flif
+│   │   ├── Sking.png
+│   │   ├── Southern_pacific_1215.flif
+│   │   ├── Southern_pacific_1215.png
+│   │   ├── Steinway_Vienna_panoramic.flif
+│   │   ├── Steinway_Vienna_panoramic.png
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.flif
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.png
+│   │   ├── Swallowtail_05_06_07.flif
+│   │   ├── Swallowtail_05_06_07.png
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.flif
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.png
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.flif
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.png
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.flif
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.png
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.flif
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.png
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.flif
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.png
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.flif
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.png
+│   │   ├── White_Dune_-_Mui_Ne.flif
+│   │   └── White_Dune_-_Mui_Ne.png
+│   ├── JPEGXL
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.jxl
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.png
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.jxl
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.png
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.jxl
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.png
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.jxl
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.png
+│   │   ├── 89_-_Vézelay_Basilique_2.jxl
+│   │   ├── 89_-_Vézelay_Basilique_2.png
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.jxl
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.png
+│   │   ├── Adventure_with_the_Windmills.jxl
+│   │   ├── Adventure_with_the_Windmills.png
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.jxl
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.png
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).jxl
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).png
+│   │   ├── Bath_from_alexandra_park.jxl
+│   │   ├── Bath_from_alexandra_park.png
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.jxl
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.png
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).jxl
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).png
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.jxl
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.png
+│   │   ├── Citroen_C4F.jxl
+│   │   ├── Citroen_C4F.png
+│   │   ├── Claudette_14_july_2003_1920Z.jxl
+│   │   ├── Claudette_14_july_2003_1920Z.png
+│   │   ├── Clovisfest.jxl
+│   │   ├── Clovisfest.png
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.jxl
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.png
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.jxl
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.png
+│   │   ├── Eaglefairy_hst_big.jxl
+│   │   ├── Eaglefairy_hst_big.png
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.jxl
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.png
+│   │   ├── End_of_Show_3.jxl
+│   │   ├── End_of_Show_3.png
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.jxl
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.png
+│   │   ├── Fruits_oranges,_jardin_japonais_2.jxl
+│   │   ├── Fruits_oranges,_jardin_japonais_2.png
+│   │   ├── GrimburgwalAmsterdam.jxl
+│   │   ├── GrimburgwalAmsterdam.png
+│   │   ├── IENA_-_Avenches_-_6.jxl
+│   │   ├── IENA_-_Avenches_-_6.png
+│   │   ├── Kopenhagen,_Tivoli-9120.jxl
+│   │   ├── Kopenhagen,_Tivoli-9120.png
+│   │   ├── Krøyer_PS.jxl
+│   │   ├── Krøyer_PS.png
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.jxl
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.png
+│   │   ├── MEG_20110701_Japan_Expo_02.jxl
+│   │   ├── MEG_20110701_Japan_Expo_02.png
+│   │   ├── Moscow_July_2011-4a.jxl
+│   │   ├── Moscow_July_2011-4a.png
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.jxl
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.png
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.jxl
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.png
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.jxl
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.png
+│   │   ├── Ohashi0806shield.jxl
+│   │   ├── Ohashi0806shield.png
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.jxl
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.png
+│   │   ├── Reykjavík_03.jxl
+│   │   ├── Reykjavík_03.png
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.jxl
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.png
+│   │   ├── Sking.jxl
+│   │   ├── Sking.png
+│   │   ├── Southern_pacific_1215.jxl
+│   │   ├── Southern_pacific_1215.png
+│   │   ├── Steinway_Vienna_panoramic.jxl
+│   │   ├── Steinway_Vienna_panoramic.png
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.jxl
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.png
+│   │   ├── Swallowtail_05_06_07.jxl
+│   │   ├── Swallowtail_05_06_07.png
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.jxl
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.png
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.jxl
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.png
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.jxl
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.png
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.jxl
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.png
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.jxl
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.png
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.jxl
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.png
+│   │   ├── White_Dune_-_Mui_Ne.jxl
+│   │   └── White_Dune_-_Mui_Ne.png
+│   ├── JPEGXR
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.jxr
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.png
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.jxr
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.png
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.jxr
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.png
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.jxr
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.png
+│   │   ├── 89_-_Vézelay_Basilique_2.jxr
+│   │   ├── 89_-_Vézelay_Basilique_2.png
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.jxr
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.png
+│   │   ├── Adventure_with_the_Windmills.jxr
+│   │   ├── Adventure_with_the_Windmills.png
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.jxr
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.png
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).jxr
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).png
+│   │   ├── Bath_from_alexandra_park.jxr
+│   │   ├── Bath_from_alexandra_park.png
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.jxr
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.png
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).jxr
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).png
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.jxr
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.png
+│   │   ├── Citroen_C4F.jxr
+│   │   ├── Citroen_C4F.png
+│   │   ├── Claudette_14_july_2003_1920Z.jxr
+│   │   ├── Claudette_14_july_2003_1920Z.png
+│   │   ├── Clovisfest.jxr
+│   │   ├── Clovisfest.png
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.jxr
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.png
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.jxr
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.png
+│   │   ├── Eaglefairy_hst_big.jxr
+│   │   ├── Eaglefairy_hst_big.png
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.jxr
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.png
+│   │   ├── End_of_Show_3.jxr
+│   │   ├── End_of_Show_3.png
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.jxr
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.png
+│   │   ├── Fruits_oranges,_jardin_japonais_2.jxr
+│   │   ├── Fruits_oranges,_jardin_japonais_2.png
+│   │   ├── GrimburgwalAmsterdam.jxr
+│   │   ├── GrimburgwalAmsterdam.png
+│   │   ├── IENA_-_Avenches_-_6.jxr
+│   │   ├── IENA_-_Avenches_-_6.png
+│   │   ├── Kopenhagen,_Tivoli-9120.jxr
+│   │   ├── Kopenhagen,_Tivoli-9120.png
+│   │   ├── Krøyer_PS.jxr
+│   │   ├── Krøyer_PS.png
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.jxr
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.png
+│   │   ├── MEG_20110701_Japan_Expo_02.jxr
+│   │   ├── MEG_20110701_Japan_Expo_02.png
+│   │   ├── Moscow_July_2011-4a.jxr
+│   │   ├── Moscow_July_2011-4a.png
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.jxr
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.png
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.jxr
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.png
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.jxr
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.png
+│   │   ├── Ohashi0806shield.jxr
+│   │   ├── Ohashi0806shield.png
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.jxr
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.png
+│   │   ├── Reykjavík_03.jxr
+│   │   ├── Reykjavík_03.png
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.jxr
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.png
+│   │   ├── Sking.jxr
+│   │   ├── Sking.png
+│   │   ├── Southern_pacific_1215.jxr
+│   │   ├── Southern_pacific_1215.png
+│   │   ├── Steinway_Vienna_panoramic.jxr
+│   │   ├── Steinway_Vienna_panoramic.png
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.jxr
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.png
+│   │   ├── Swallowtail_05_06_07.jxr
+│   │   ├── Swallowtail_05_06_07.png
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.jxr
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.png
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.jxr
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.png
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.jxr
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.png
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.jxr
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.png
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.jxr
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.png
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.jxr
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.png
+│   │   ├── White_Dune_-_Mui_Ne.jxr
+│   │   └── White_Dune_-_Mui_Ne.png
+│   └── MOZJPEG
+│       ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.jpg
+│       ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.jpg
+│       ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.jpg
+│       ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.jpg
+│       ├── 89_-_Vézelay_Basilique_2.jpg
+│       ├── Abandoned_Packard_Automobile_Factory_Detroit_200.jpg
+│       ├── Adventure_with_the_Windmills.jpg
+│       ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.jpg
+│       ├── Albi,_Cathédrale_Sainte_Cécile_(3).jpg
+│       ├── Bath_from_alexandra_park.jpg
+│       ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.jpg
+│       ├── Catedral_de_Toledo.Altar_Mayor_(huge).jpg
+│       ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.jpg
+│       ├── Citroen_C4F.jpg
+│       ├── Claudette_14_july_2003_1920Z.jpg
+│       ├── Clovisfest.jpg
+│       ├── Correfocs_Festa_Major_del_Clot_2009.jpg
+│       ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.jpg
+│       ├── Eaglefairy_hst_big.jpg
+│       ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.jpg
+│       ├── End_of_Show_3.jpg
+│       ├── Florac-Le_Vibron-Source_du_Pêcher.jpg
+│       ├── Fruits_oranges,_jardin_japonais_2.jpg
+│       ├── GrimburgwalAmsterdam.jpg
+│       ├── IENA_-_Avenches_-_6.jpg
+│       ├── Kopenhagen,_Tivoli-9120.jpg
+│       ├── Krøyer_PS.jpg
+│       ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.jpg
+│       ├── MEG_20110701_Japan_Expo_02.jpg
+│       ├── Moscow_July_2011-4a.jpg
+│       ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.jpg
+│       ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.jpg
+│       ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.jpg
+│       ├── Ohashi0806shield.jpg
+│       ├── Production_of_B-24_bombers_and_C-87_transports2.jpg
+│       ├── Reykjavík_03.jpg
+│       ├── Seikima-II_20100704_Japan_Expo_32.jpg
+│       ├── Sking.jpg
+│       ├── Southern_pacific_1215.jpg
+│       ├── Steinway_Vienna_panoramic.jpg
+│       ├── ST_vs_RCT_-_December_2011_-_077.jpg
+│       ├── Swallowtail_05_06_07.jpg
+│       ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.jpg
+│       ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.jpg
+│       ├── US_Open_Tennis_2010_1st_Round_046.jpg
+│       ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.jpg
+│       ├── Washington_Monument,_Washington,_D.C._04037u_original.jpg
+│       ├── Wasserfassstelle_von_1898_im_Schanerloch.jpg
+│       └── White_Dune_-_Mui_Ne.jpg
+├── medium
+│   ├── AV1
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.avif
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.png
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.avif
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.png
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.avif
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.png
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.avif
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.png
+│   │   ├── 89_-_Vézelay_Basilique_2.avif
+│   │   ├── 89_-_Vézelay_Basilique_2.png
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.avif
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.png
+│   │   ├── Adventure_with_the_Windmills.avif
+│   │   ├── Adventure_with_the_Windmills.png
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.avif
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.png
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).avif
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).png
+│   │   ├── Bath_from_alexandra_park.avif
+│   │   ├── Bath_from_alexandra_park.png
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.avif
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.png
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).avif
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).png
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.avif
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.png
+│   │   ├── Citroen_C4F.avif
+│   │   ├── Citroen_C4F.png
+│   │   ├── Claudette_14_july_2003_1920Z.avif
+│   │   ├── Claudette_14_july_2003_1920Z.png
+│   │   ├── Clovisfest.avif
+│   │   ├── Clovisfest.png
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.avif
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.png
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.avif
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.png
+│   │   ├── Eaglefairy_hst_big.avif
+│   │   ├── Eaglefairy_hst_big.png
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.avif
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.png
+│   │   ├── End_of_Show_3.avif
+│   │   ├── End_of_Show_3.png
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.avif
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.png
+│   │   ├── Fruits_oranges,_jardin_japonais_2.avif
+│   │   ├── Fruits_oranges,_jardin_japonais_2.png
+│   │   ├── GrimburgwalAmsterdam.avif
+│   │   ├── GrimburgwalAmsterdam.png
+│   │   ├── IENA_-_Avenches_-_6.avif
+│   │   ├── IENA_-_Avenches_-_6.png
+│   │   ├── Kopenhagen,_Tivoli-9120.avif
+│   │   ├── Kopenhagen,_Tivoli-9120.png
+│   │   ├── Krøyer_PS.avif
+│   │   ├── Krøyer_PS.png
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.avif
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.png
+│   │   ├── MEG_20110701_Japan_Expo_02.avif
+│   │   ├── MEG_20110701_Japan_Expo_02.png
+│   │   ├── Moscow_July_2011-4a.avif
+│   │   ├── Moscow_July_2011-4a.png
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.avif
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.png
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.avif
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.png
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.avif
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.png
+│   │   ├── Ohashi0806shield.avif
+│   │   ├── Ohashi0806shield.png
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.avif
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.png
+│   │   ├── Reykjavík_03.avif
+│   │   ├── Reykjavík_03.png
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.avif
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.png
+│   │   ├── Sking.avif
+│   │   ├── Sking.png
+│   │   ├── Southern_pacific_1215.avif
+│   │   ├── Southern_pacific_1215.png
+│   │   ├── Steinway_Vienna_panoramic.avif
+│   │   ├── Steinway_Vienna_panoramic.png
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.avif
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.png
+│   │   ├── Swallowtail_05_06_07.avif
+│   │   ├── Swallowtail_05_06_07.png
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.avif
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.png
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.avif
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.png
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.avif
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.png
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.avif
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.png
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.avif
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.png
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.avif
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.png
+│   │   ├── White_Dune_-_Mui_Ne.avif
+│   │   └── White_Dune_-_Mui_Ne.png
+│   ├── BPG
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.bpg
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.png
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.bpg
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.png
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.bpg
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.png
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.bpg
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.png
+│   │   ├── 89_-_Vézelay_Basilique_2.bpg
+│   │   ├── 89_-_Vézelay_Basilique_2.png
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.bpg
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.png
+│   │   ├── Adventure_with_the_Windmills.bpg
+│   │   ├── Adventure_with_the_Windmills.png
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.bpg
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.png
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).bpg
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).png
+│   │   ├── Bath_from_alexandra_park.bpg
+│   │   ├── Bath_from_alexandra_park.png
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.bpg
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.png
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).bpg
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).png
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.bpg
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.png
+│   │   ├── Citroen_C4F.bpg
+│   │   ├── Citroen_C4F.png
+│   │   ├── Claudette_14_july_2003_1920Z.bpg
+│   │   ├── Claudette_14_july_2003_1920Z.png
+│   │   ├── Clovisfest.bpg
+│   │   ├── Clovisfest.png
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.bpg
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.png
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.bpg
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.png
+│   │   ├── Eaglefairy_hst_big.bpg
+│   │   ├── Eaglefairy_hst_big.png
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.bpg
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.png
+│   │   ├── End_of_Show_3.bpg
+│   │   ├── End_of_Show_3.png
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.bpg
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.png
+│   │   ├── Fruits_oranges,_jardin_japonais_2.bpg
+│   │   ├── Fruits_oranges,_jardin_japonais_2.png
+│   │   ├── GrimburgwalAmsterdam.bpg
+│   │   ├── GrimburgwalAmsterdam.png
+│   │   ├── IENA_-_Avenches_-_6.bpg
+│   │   ├── IENA_-_Avenches_-_6.png
+│   │   ├── Kopenhagen,_Tivoli-9120.bpg
+│   │   ├── Kopenhagen,_Tivoli-9120.png
+│   │   ├── Krøyer_PS.bpg
+│   │   ├── Krøyer_PS.png
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.bpg
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.png
+│   │   ├── MEG_20110701_Japan_Expo_02.bpg
+│   │   ├── MEG_20110701_Japan_Expo_02.png
+│   │   ├── Moscow_July_2011-4a.bpg
+│   │   ├── Moscow_July_2011-4a.png
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.bpg
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.png
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.bpg
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.png
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.bpg
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.png
+│   │   ├── Ohashi0806shield.bpg
+│   │   ├── Ohashi0806shield.png
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.bpg
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.png
+│   │   ├── Reykjavík_03.bpg
+│   │   ├── Reykjavík_03.png
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.bpg
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.png
+│   │   ├── Sking.bpg
+│   │   ├── Sking.png
+│   │   ├── Southern_pacific_1215.bpg
+│   │   ├── Southern_pacific_1215.png
+│   │   ├── Steinway_Vienna_panoramic.bpg
+│   │   ├── Steinway_Vienna_panoramic.png
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.bpg
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.png
+│   │   ├── Swallowtail_05_06_07.bpg
+│   │   ├── Swallowtail_05_06_07.png
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.bpg
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.png
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.bpg
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.png
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.bpg
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.png
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.bpg
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.png
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.bpg
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.png
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.bpg
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.png
+│   │   ├── White_Dune_-_Mui_Ne.bpg
+│   │   └── White_Dune_-_Mui_Ne.png
+│   ├── FLIF
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.flif
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.png
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.flif
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.png
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.flif
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.png
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.flif
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.png
+│   │   ├── 89_-_Vézelay_Basilique_2.flif
+│   │   ├── 89_-_Vézelay_Basilique_2.png
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.flif
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.png
+│   │   ├── Adventure_with_the_Windmills.flif
+│   │   ├── Adventure_with_the_Windmills.png
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.flif
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.png
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).flif
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).png
+│   │   ├── Bath_from_alexandra_park.flif
+│   │   ├── Bath_from_alexandra_park.png
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.flif
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.png
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).flif
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).png
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.flif
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.png
+│   │   ├── Citroen_C4F.flif
+│   │   ├── Citroen_C4F.png
+│   │   ├── Claudette_14_july_2003_1920Z.flif
+│   │   ├── Claudette_14_july_2003_1920Z.png
+│   │   ├── Clovisfest.flif
+│   │   ├── Clovisfest.png
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.flif
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.png
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.flif
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.png
+│   │   ├── Eaglefairy_hst_big.flif
+│   │   ├── Eaglefairy_hst_big.png
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.flif
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.png
+│   │   ├── End_of_Show_3.flif
+│   │   ├── End_of_Show_3.png
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.flif
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.png
+│   │   ├── Fruits_oranges,_jardin_japonais_2.flif
+│   │   ├── Fruits_oranges,_jardin_japonais_2.png
+│   │   ├── GrimburgwalAmsterdam.flif
+│   │   ├── GrimburgwalAmsterdam.png
+│   │   ├── IENA_-_Avenches_-_6.flif
+│   │   ├── IENA_-_Avenches_-_6.png
+│   │   ├── Kopenhagen,_Tivoli-9120.flif
+│   │   ├── Kopenhagen,_Tivoli-9120.png
+│   │   ├── Krøyer_PS.flif
+│   │   ├── Krøyer_PS.png
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.flif
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.png
+│   │   ├── MEG_20110701_Japan_Expo_02.flif
+│   │   ├── MEG_20110701_Japan_Expo_02.png
+│   │   ├── Moscow_July_2011-4a.flif
+│   │   ├── Moscow_July_2011-4a.png
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.flif
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.png
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.flif
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.png
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.flif
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.png
+│   │   ├── Ohashi0806shield.flif
+│   │   ├── Ohashi0806shield.png
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.flif
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.png
+│   │   ├── Reykjavík_03.flif
+│   │   ├── Reykjavík_03.png
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.flif
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.png
+│   │   ├── Sking.flif
+│   │   ├── Sking.png
+│   │   ├── Southern_pacific_1215.flif
+│   │   ├── Southern_pacific_1215.png
+│   │   ├── Steinway_Vienna_panoramic.flif
+│   │   ├── Steinway_Vienna_panoramic.png
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.flif
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.png
+│   │   ├── Swallowtail_05_06_07.flif
+│   │   ├── Swallowtail_05_06_07.png
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.flif
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.png
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.flif
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.png
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.flif
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.png
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.flif
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.png
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.flif
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.png
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.flif
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.png
+│   │   ├── White_Dune_-_Mui_Ne.flif
+│   │   └── White_Dune_-_Mui_Ne.png
+│   ├── JPEGXL
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.jxl
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.png
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.jxl
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.png
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.jxl
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.png
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.jxl
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.png
+│   │   ├── 89_-_Vézelay_Basilique_2.jxl
+│   │   ├── 89_-_Vézelay_Basilique_2.png
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.jxl
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.png
+│   │   ├── Adventure_with_the_Windmills.jxl
+│   │   ├── Adventure_with_the_Windmills.png
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.jxl
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.png
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).jxl
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).png
+│   │   ├── Bath_from_alexandra_park.jxl
+│   │   ├── Bath_from_alexandra_park.png
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.jxl
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.png
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).jxl
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).png
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.jxl
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.png
+│   │   ├── Citroen_C4F.jxl
+│   │   ├── Citroen_C4F.png
+│   │   ├── Claudette_14_july_2003_1920Z.jxl
+│   │   ├── Claudette_14_july_2003_1920Z.png
+│   │   ├── Clovisfest.jxl
+│   │   ├── Clovisfest.png
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.jxl
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.png
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.jxl
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.png
+│   │   ├── Eaglefairy_hst_big.jxl
+│   │   ├── Eaglefairy_hst_big.png
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.jxl
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.png
+│   │   ├── End_of_Show_3.jxl
+│   │   ├── End_of_Show_3.png
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.jxl
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.png
+│   │   ├── Fruits_oranges,_jardin_japonais_2.jxl
+│   │   ├── Fruits_oranges,_jardin_japonais_2.png
+│   │   ├── GrimburgwalAmsterdam.jxl
+│   │   ├── GrimburgwalAmsterdam.png
+│   │   ├── IENA_-_Avenches_-_6.jxl
+│   │   ├── IENA_-_Avenches_-_6.png
+│   │   ├── Kopenhagen,_Tivoli-9120.jxl
+│   │   ├── Kopenhagen,_Tivoli-9120.png
+│   │   ├── Krøyer_PS.jxl
+│   │   ├── Krøyer_PS.png
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.jxl
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.png
+│   │   ├── MEG_20110701_Japan_Expo_02.jxl
+│   │   ├── MEG_20110701_Japan_Expo_02.png
+│   │   ├── Moscow_July_2011-4a.jxl
+│   │   ├── Moscow_July_2011-4a.png
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.jxl
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.png
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.jxl
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.png
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.jxl
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.png
+│   │   ├── Ohashi0806shield.jxl
+│   │   ├── Ohashi0806shield.png
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.jxl
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.png
+│   │   ├── Reykjavík_03.jxl
+│   │   ├── Reykjavík_03.png
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.jxl
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.png
+│   │   ├── Sking.jxl
+│   │   ├── Sking.png
+│   │   ├── Southern_pacific_1215.jxl
+│   │   ├── Southern_pacific_1215.png
+│   │   ├── Steinway_Vienna_panoramic.jxl
+│   │   ├── Steinway_Vienna_panoramic.png
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.jxl
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.png
+│   │   ├── Swallowtail_05_06_07.jxl
+│   │   ├── Swallowtail_05_06_07.png
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.jxl
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.png
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.jxl
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.png
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.jxl
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.png
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.jxl
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.png
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.jxl
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.png
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.jxl
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.png
+│   │   ├── White_Dune_-_Mui_Ne.jxl
+│   │   └── White_Dune_-_Mui_Ne.png
+│   ├── JPEGXR
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.jxr
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.png
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.jxr
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.png
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.jxr
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.png
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.jxr
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.png
+│   │   ├── 89_-_Vézelay_Basilique_2.jxr
+│   │   ├── 89_-_Vézelay_Basilique_2.png
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.jxr
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.png
+│   │   ├── Adventure_with_the_Windmills.jxr
+│   │   ├── Adventure_with_the_Windmills.png
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.jxr
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.png
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).jxr
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).png
+│   │   ├── Bath_from_alexandra_park.jxr
+│   │   ├── Bath_from_alexandra_park.png
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.jxr
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.png
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).jxr
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).png
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.jxr
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.png
+│   │   ├── Citroen_C4F.jxr
+│   │   ├── Citroen_C4F.png
+│   │   ├── Claudette_14_july_2003_1920Z.jxr
+│   │   ├── Claudette_14_july_2003_1920Z.png
+│   │   ├── Clovisfest.jxr
+│   │   ├── Clovisfest.png
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.jxr
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.png
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.jxr
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.png
+│   │   ├── Eaglefairy_hst_big.jxr
+│   │   ├── Eaglefairy_hst_big.png
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.jxr
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.png
+│   │   ├── End_of_Show_3.jxr
+│   │   ├── End_of_Show_3.png
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.jxr
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.png
+│   │   ├── Fruits_oranges,_jardin_japonais_2.jxr
+│   │   ├── Fruits_oranges,_jardin_japonais_2.png
+│   │   ├── GrimburgwalAmsterdam.jxr
+│   │   ├── GrimburgwalAmsterdam.png
+│   │   ├── IENA_-_Avenches_-_6.jxr
+│   │   ├── IENA_-_Avenches_-_6.png
+│   │   ├── Kopenhagen,_Tivoli-9120.jxr
+│   │   ├── Kopenhagen,_Tivoli-9120.png
+│   │   ├── Krøyer_PS.jxr
+│   │   ├── Krøyer_PS.png
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.jxr
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.png
+│   │   ├── MEG_20110701_Japan_Expo_02.jxr
+│   │   ├── MEG_20110701_Japan_Expo_02.png
+│   │   ├── Moscow_July_2011-4a.jxr
+│   │   ├── Moscow_July_2011-4a.png
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.jxr
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.png
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.jxr
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.png
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.jxr
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.png
+│   │   ├── Ohashi0806shield.jxr
+│   │   ├── Ohashi0806shield.png
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.jxr
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.png
+│   │   ├── Reykjavík_03.jxr
+│   │   ├── Reykjavík_03.png
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.jxr
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.png
+│   │   ├── Sking.jxr
+│   │   ├── Sking.png
+│   │   ├── Southern_pacific_1215.jxr
+│   │   ├── Southern_pacific_1215.png
+│   │   ├── Steinway_Vienna_panoramic.jxr
+│   │   ├── Steinway_Vienna_panoramic.png
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.jxr
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.png
+│   │   ├── Swallowtail_05_06_07.jxr
+│   │   ├── Swallowtail_05_06_07.png
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.jxr
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.png
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.jxr
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.png
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.jxr
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.png
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.jxr
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.png
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.jxr
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.png
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.jxr
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.png
+│   │   ├── White_Dune_-_Mui_Ne.jxr
+│   │   └── White_Dune_-_Mui_Ne.png
+│   └── MOZJPEG
+│       ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.jpg
+│       ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.jpg
+│       ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.jpg
+│       ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.jpg
+│       ├── 89_-_Vézelay_Basilique_2.jpg
+│       ├── Abandoned_Packard_Automobile_Factory_Detroit_200.jpg
+│       ├── Adventure_with_the_Windmills.jpg
+│       ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.jpg
+│       ├── Albi,_Cathédrale_Sainte_Cécile_(3).jpg
+│       ├── Bath_from_alexandra_park.jpg
+│       ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.jpg
+│       ├── Catedral_de_Toledo.Altar_Mayor_(huge).jpg
+│       ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.jpg
+│       ├── Citroen_C4F.jpg
+│       ├── Claudette_14_july_2003_1920Z.jpg
+│       ├── Clovisfest.jpg
+│       ├── Correfocs_Festa_Major_del_Clot_2009.jpg
+│       ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.jpg
+│       ├── Eaglefairy_hst_big.jpg
+│       ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.jpg
+│       ├── End_of_Show_3.jpg
+│       ├── Florac-Le_Vibron-Source_du_Pêcher.jpg
+│       ├── Fruits_oranges,_jardin_japonais_2.jpg
+│       ├── GrimburgwalAmsterdam.jpg
+│       ├── IENA_-_Avenches_-_6.jpg
+│       ├── Kopenhagen,_Tivoli-9120.jpg
+│       ├── Krøyer_PS.jpg
+│       ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.jpg
+│       ├── MEG_20110701_Japan_Expo_02.jpg
+│       ├── Moscow_July_2011-4a.jpg
+│       ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.jpg
+│       ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.jpg
+│       ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.jpg
+│       ├── Ohashi0806shield.jpg
+│       ├── Production_of_B-24_bombers_and_C-87_transports2.jpg
+│       ├── Reykjavík_03.jpg
+│       ├── Seikima-II_20100704_Japan_Expo_32.jpg
+│       ├── Sking.jpg
+│       ├── Southern_pacific_1215.jpg
+│       ├── Steinway_Vienna_panoramic.jpg
+│       ├── ST_vs_RCT_-_December_2011_-_077.jpg
+│       ├── Swallowtail_05_06_07.jpg
+│       ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.jpg
+│       ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.jpg
+│       ├── US_Open_Tennis_2010_1st_Round_046.jpg
+│       ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.jpg
+│       ├── Washington_Monument,_Washington,_D.C._04037u_original.jpg
+│       ├── Wasserfassstelle_von_1898_im_Schanerloch.jpg
+│       └── White_Dune_-_Mui_Ne.jpg
+├── original
+│   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.png
+│   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.png
+│   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.png
+│   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.png
+│   ├── 89_-_Vézelay_Basilique_2.png
+│   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.png
+│   ├── Adventure_with_the_Windmills.png
+│   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.png
+│   ├── Albi,_Cathédrale_Sainte_Cécile_(3).png
+│   ├── Bath_from_alexandra_park.png
+│   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.png
+│   ├── Catedral_de_Toledo.Altar_Mayor_(huge).png
+│   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.png
+│   ├── Citroen_C4F.png
+│   ├── Claudette_14_july_2003_1920Z.png
+│   ├── Clovisfest.png
+│   ├── Correfocs_Festa_Major_del_Clot_2009.png
+│   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.png
+│   ├── Eaglefairy_hst_big.png
+│   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.png
+│   ├── End_of_Show_3.png
+│   ├── Florac-Le_Vibron-Source_du_Pêcher.png
+│   ├── Fruits_oranges,_jardin_japonais_2.png
+│   ├── GrimburgwalAmsterdam.png
+│   ├── IENA_-_Avenches_-_6.png
+│   ├── Kopenhagen,_Tivoli-9120.png
+│   ├── Krøyer_PS.png
+│   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.png
+│   ├── MEG_20110701_Japan_Expo_02.png
+│   ├── Moscow_July_2011-4a.png
+│   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.png
+│   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.png
+│   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.png
+│   ├── Ohashi0806shield.png
+│   ├── Production_of_B-24_bombers_and_C-87_transports2.png
+│   ├── Reykjavík_03.png
+│   ├── Seikima-II_20100704_Japan_Expo_32.png
+│   ├── Sking.png
+│   ├── Southern_pacific_1215.png
+│   ├── Steinway_Vienna_panoramic.png
+│   ├── ST_vs_RCT_-_December_2011_-_077.png
+│   ├── Swallowtail_05_06_07.png
+│   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.png
+│   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.png
+│   ├── US_Open_Tennis_2010_1st_Round_046.png
+│   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.png
+│   ├── Washington_Monument,_Washington,_D.C._04037u_original.png
+│   ├── Wasserfassstelle_von_1898_im_Schanerloch.png
+│   └── White_Dune_-_Mui_Ne.png
+├── small
+│   ├── AV1
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.avif
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.png
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.avif
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.png
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.avif
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.png
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.avif
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.png
+│   │   ├── 89_-_Vézelay_Basilique_2.avif
+│   │   ├── 89_-_Vézelay_Basilique_2.png
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.avif
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.png
+│   │   ├── Adventure_with_the_Windmills.avif
+│   │   ├── Adventure_with_the_Windmills.png
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.avif
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.png
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).avif
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).png
+│   │   ├── Bath_from_alexandra_park.avif
+│   │   ├── Bath_from_alexandra_park.png
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.avif
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.png
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).avif
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).png
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.avif
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.png
+│   │   ├── Citroen_C4F.avif
+│   │   ├── Citroen_C4F.png
+│   │   ├── Claudette_14_july_2003_1920Z.avif
+│   │   ├── Claudette_14_july_2003_1920Z.png
+│   │   ├── Clovisfest.avif
+│   │   ├── Clovisfest.png
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.avif
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.png
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.avif
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.png
+│   │   ├── Eaglefairy_hst_big.avif
+│   │   ├── Eaglefairy_hst_big.png
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.avif
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.png
+│   │   ├── End_of_Show_3.avif
+│   │   ├── End_of_Show_3.png
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.avif
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.png
+│   │   ├── Fruits_oranges,_jardin_japonais_2.avif
+│   │   ├── Fruits_oranges,_jardin_japonais_2.png
+│   │   ├── GrimburgwalAmsterdam.avif
+│   │   ├── GrimburgwalAmsterdam.png
+│   │   ├── IENA_-_Avenches_-_6.avif
+│   │   ├── IENA_-_Avenches_-_6.png
+│   │   ├── Kopenhagen,_Tivoli-9120.avif
+│   │   ├── Kopenhagen,_Tivoli-9120.png
+│   │   ├── Krøyer_PS.avif
+│   │   ├── Krøyer_PS.png
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.avif
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.png
+│   │   ├── MEG_20110701_Japan_Expo_02.avif
+│   │   ├── MEG_20110701_Japan_Expo_02.png
+│   │   ├── Moscow_July_2011-4a.avif
+│   │   ├── Moscow_July_2011-4a.png
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.avif
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.png
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.avif
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.png
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.avif
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.png
+│   │   ├── Ohashi0806shield.avif
+│   │   ├── Ohashi0806shield.png
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.avif
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.png
+│   │   ├── Reykjavík_03.avif
+│   │   ├── Reykjavík_03.png
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.avif
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.png
+│   │   ├── Sking.avif
+│   │   ├── Sking.png
+│   │   ├── Southern_pacific_1215.avif
+│   │   ├── Southern_pacific_1215.png
+│   │   ├── Steinway_Vienna_panoramic.avif
+│   │   ├── Steinway_Vienna_panoramic.png
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.avif
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.png
+│   │   ├── Swallowtail_05_06_07.avif
+│   │   ├── Swallowtail_05_06_07.png
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.avif
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.png
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.avif
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.png
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.avif
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.png
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.avif
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.png
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.avif
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.png
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.avif
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.png
+│   │   ├── White_Dune_-_Mui_Ne.avif
+│   │   └── White_Dune_-_Mui_Ne.png
+│   ├── BPG
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.bpg
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.png
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.bpg
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.png
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.bpg
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.png
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.bpg
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.png
+│   │   ├── 89_-_Vézelay_Basilique_2.bpg
+│   │   ├── 89_-_Vézelay_Basilique_2.png
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.bpg
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.png
+│   │   ├── Adventure_with_the_Windmills.bpg
+│   │   ├── Adventure_with_the_Windmills.png
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.bpg
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.png
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).bpg
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).png
+│   │   ├── Bath_from_alexandra_park.bpg
+│   │   ├── Bath_from_alexandra_park.png
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.bpg
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.png
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).bpg
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).png
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.bpg
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.png
+│   │   ├── Citroen_C4F.bpg
+│   │   ├── Citroen_C4F.png
+│   │   ├── Claudette_14_july_2003_1920Z.bpg
+│   │   ├── Claudette_14_july_2003_1920Z.png
+│   │   ├── Clovisfest.bpg
+│   │   ├── Clovisfest.png
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.bpg
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.png
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.bpg
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.png
+│   │   ├── Eaglefairy_hst_big.bpg
+│   │   ├── Eaglefairy_hst_big.png
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.bpg
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.png
+│   │   ├── End_of_Show_3.bpg
+│   │   ├── End_of_Show_3.png
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.bpg
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.png
+│   │   ├── Fruits_oranges,_jardin_japonais_2.bpg
+│   │   ├── Fruits_oranges,_jardin_japonais_2.png
+│   │   ├── GrimburgwalAmsterdam.bpg
+│   │   ├── GrimburgwalAmsterdam.png
+│   │   ├── IENA_-_Avenches_-_6.bpg
+│   │   ├── IENA_-_Avenches_-_6.png
+│   │   ├── Kopenhagen,_Tivoli-9120.bpg
+│   │   ├── Kopenhagen,_Tivoli-9120.png
+│   │   ├── Krøyer_PS.bpg
+│   │   ├── Krøyer_PS.png
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.bpg
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.png
+│   │   ├── MEG_20110701_Japan_Expo_02.bpg
+│   │   ├── MEG_20110701_Japan_Expo_02.png
+│   │   ├── Moscow_July_2011-4a.bpg
+│   │   ├── Moscow_July_2011-4a.png
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.bpg
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.png
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.bpg
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.png
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.bpg
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.png
+│   │   ├── Ohashi0806shield.bpg
+│   │   ├── Ohashi0806shield.png
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.bpg
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.png
+│   │   ├── Reykjavík_03.bpg
+│   │   ├── Reykjavík_03.png
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.bpg
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.png
+│   │   ├── Sking.bpg
+│   │   ├── Sking.png
+│   │   ├── Southern_pacific_1215.bpg
+│   │   ├── Southern_pacific_1215.png
+│   │   ├── Steinway_Vienna_panoramic.bpg
+│   │   ├── Steinway_Vienna_panoramic.png
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.bpg
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.png
+│   │   ├── Swallowtail_05_06_07.bpg
+│   │   ├── Swallowtail_05_06_07.png
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.bpg
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.png
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.bpg
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.png
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.bpg
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.png
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.bpg
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.png
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.bpg
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.png
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.bpg
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.png
+│   │   ├── White_Dune_-_Mui_Ne.bpg
+│   │   └── White_Dune_-_Mui_Ne.png
+│   ├── FLIF
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.flif
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.png
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.flif
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.png
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.flif
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.png
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.flif
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.png
+│   │   ├── 89_-_Vézelay_Basilique_2.flif
+│   │   ├── 89_-_Vézelay_Basilique_2.png
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.flif
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.png
+│   │   ├── Adventure_with_the_Windmills.flif
+│   │   ├── Adventure_with_the_Windmills.png
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.flif
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.png
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).flif
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).png
+│   │   ├── Bath_from_alexandra_park.flif
+│   │   ├── Bath_from_alexandra_park.png
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.flif
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.png
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).flif
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).png
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.flif
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.png
+│   │   ├── Citroen_C4F.flif
+│   │   ├── Citroen_C4F.png
+│   │   ├── Claudette_14_july_2003_1920Z.flif
+│   │   ├── Claudette_14_july_2003_1920Z.png
+│   │   ├── Clovisfest.flif
+│   │   ├── Clovisfest.png
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.flif
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.png
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.flif
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.png
+│   │   ├── Eaglefairy_hst_big.flif
+│   │   ├── Eaglefairy_hst_big.png
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.flif
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.png
+│   │   ├── End_of_Show_3.flif
+│   │   ├── End_of_Show_3.png
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.flif
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.png
+│   │   ├── Fruits_oranges,_jardin_japonais_2.flif
+│   │   ├── Fruits_oranges,_jardin_japonais_2.png
+│   │   ├── GrimburgwalAmsterdam.flif
+│   │   ├── GrimburgwalAmsterdam.png
+│   │   ├── IENA_-_Avenches_-_6.flif
+│   │   ├── IENA_-_Avenches_-_6.png
+│   │   ├── Kopenhagen,_Tivoli-9120.flif
+│   │   ├── Kopenhagen,_Tivoli-9120.png
+│   │   ├── Krøyer_PS.flif
+│   │   ├── Krøyer_PS.png
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.flif
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.png
+│   │   ├── MEG_20110701_Japan_Expo_02.flif
+│   │   ├── MEG_20110701_Japan_Expo_02.png
+│   │   ├── Moscow_July_2011-4a.flif
+│   │   ├── Moscow_July_2011-4a.png
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.flif
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.png
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.flif
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.png
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.flif
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.png
+│   │   ├── Ohashi0806shield.flif
+│   │   ├── Ohashi0806shield.png
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.flif
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.png
+│   │   ├── Reykjavík_03.flif
+│   │   ├── Reykjavík_03.png
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.flif
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.png
+│   │   ├── Sking.flif
+│   │   ├── Sking.png
+│   │   ├── Southern_pacific_1215.flif
+│   │   ├── Southern_pacific_1215.png
+│   │   ├── Steinway_Vienna_panoramic.flif
+│   │   ├── Steinway_Vienna_panoramic.png
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.flif
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.png
+│   │   ├── Swallowtail_05_06_07.flif
+│   │   ├── Swallowtail_05_06_07.png
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.flif
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.png
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.flif
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.png
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.flif
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.png
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.flif
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.png
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.flif
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.png
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.flif
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.png
+│   │   ├── White_Dune_-_Mui_Ne.flif
+│   │   └── White_Dune_-_Mui_Ne.png
+│   ├── JPEGXL
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.jxl
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.png
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.jxl
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.png
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.jxl
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.png
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.jxl
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.png
+│   │   ├── 89_-_Vézelay_Basilique_2.jxl
+│   │   ├── 89_-_Vézelay_Basilique_2.png
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.jxl
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.png
+│   │   ├── Adventure_with_the_Windmills.jxl
+│   │   ├── Adventure_with_the_Windmills.png
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.jxl
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.png
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).jxl
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).png
+│   │   ├── Bath_from_alexandra_park.jxl
+│   │   ├── Bath_from_alexandra_park.png
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.jxl
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.png
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).jxl
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).png
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.jxl
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.png
+│   │   ├── Citroen_C4F.jxl
+│   │   ├── Citroen_C4F.png
+│   │   ├── Claudette_14_july_2003_1920Z.jxl
+│   │   ├── Claudette_14_july_2003_1920Z.png
+│   │   ├── Clovisfest.jxl
+│   │   ├── Clovisfest.png
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.jxl
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.png
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.jxl
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.png
+│   │   ├── Eaglefairy_hst_big.jxl
+│   │   ├── Eaglefairy_hst_big.png
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.jxl
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.png
+│   │   ├── End_of_Show_3.jxl
+│   │   ├── End_of_Show_3.png
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.jxl
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.png
+│   │   ├── Fruits_oranges,_jardin_japonais_2.jxl
+│   │   ├── Fruits_oranges,_jardin_japonais_2.png
+│   │   ├── GrimburgwalAmsterdam.jxl
+│   │   ├── GrimburgwalAmsterdam.png
+│   │   ├── IENA_-_Avenches_-_6.jxl
+│   │   ├── IENA_-_Avenches_-_6.png
+│   │   ├── Kopenhagen,_Tivoli-9120.jxl
+│   │   ├── Kopenhagen,_Tivoli-9120.png
+│   │   ├── Krøyer_PS.jxl
+│   │   ├── Krøyer_PS.png
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.jxl
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.png
+│   │   ├── MEG_20110701_Japan_Expo_02.jxl
+│   │   ├── MEG_20110701_Japan_Expo_02.png
+│   │   ├── Moscow_July_2011-4a.jxl
+│   │   ├── Moscow_July_2011-4a.png
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.jxl
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.png
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.jxl
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.png
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.jxl
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.png
+│   │   ├── Ohashi0806shield.jxl
+│   │   ├── Ohashi0806shield.png
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.jxl
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.png
+│   │   ├── Reykjavík_03.jxl
+│   │   ├── Reykjavík_03.png
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.jxl
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.png
+│   │   ├── Sking.jxl
+│   │   ├── Sking.png
+│   │   ├── Southern_pacific_1215.jxl
+│   │   ├── Southern_pacific_1215.png
+│   │   ├── Steinway_Vienna_panoramic.jxl
+│   │   ├── Steinway_Vienna_panoramic.png
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.jxl
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.png
+│   │   ├── Swallowtail_05_06_07.jxl
+│   │   ├── Swallowtail_05_06_07.png
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.jxl
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.png
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.jxl
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.png
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.jxl
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.png
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.jxl
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.png
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.jxl
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.png
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.jxl
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.png
+│   │   ├── White_Dune_-_Mui_Ne.jxl
+│   │   └── White_Dune_-_Mui_Ne.png
+│   ├── JPEGXR
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.jxr
+│   │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.png
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.jxr
+│   │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.png
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.jxr
+│   │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.png
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.jxr
+│   │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.png
+│   │   ├── 89_-_Vézelay_Basilique_2.jxr
+│   │   ├── 89_-_Vézelay_Basilique_2.png
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.jxr
+│   │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.png
+│   │   ├── Adventure_with_the_Windmills.jxr
+│   │   ├── Adventure_with_the_Windmills.png
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.jxr
+│   │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.png
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).jxr
+│   │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).png
+│   │   ├── Bath_from_alexandra_park.jxr
+│   │   ├── Bath_from_alexandra_park.png
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.jxr
+│   │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.png
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).jxr
+│   │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).png
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.jxr
+│   │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.png
+│   │   ├── Citroen_C4F.jxr
+│   │   ├── Citroen_C4F.png
+│   │   ├── Claudette_14_july_2003_1920Z.jxr
+│   │   ├── Claudette_14_july_2003_1920Z.png
+│   │   ├── Clovisfest.jxr
+│   │   ├── Clovisfest.png
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.jxr
+│   │   ├── Correfocs_Festa_Major_del_Clot_2009.png
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.jxr
+│   │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.png
+│   │   ├── Eaglefairy_hst_big.jxr
+│   │   ├── Eaglefairy_hst_big.png
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.jxr
+│   │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.png
+│   │   ├── End_of_Show_3.jxr
+│   │   ├── End_of_Show_3.png
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.jxr
+│   │   ├── Florac-Le_Vibron-Source_du_Pêcher.png
+│   │   ├── Fruits_oranges,_jardin_japonais_2.jxr
+│   │   ├── Fruits_oranges,_jardin_japonais_2.png
+│   │   ├── GrimburgwalAmsterdam.jxr
+│   │   ├── GrimburgwalAmsterdam.png
+│   │   ├── IENA_-_Avenches_-_6.jxr
+│   │   ├── IENA_-_Avenches_-_6.png
+│   │   ├── Kopenhagen,_Tivoli-9120.jxr
+│   │   ├── Kopenhagen,_Tivoli-9120.png
+│   │   ├── Krøyer_PS.jxr
+│   │   ├── Krøyer_PS.png
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.jxr
+│   │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.png
+│   │   ├── MEG_20110701_Japan_Expo_02.jxr
+│   │   ├── MEG_20110701_Japan_Expo_02.png
+│   │   ├── Moscow_July_2011-4a.jxr
+│   │   ├── Moscow_July_2011-4a.png
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.jxr
+│   │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.png
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.jxr
+│   │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.png
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.jxr
+│   │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.png
+│   │   ├── Ohashi0806shield.jxr
+│   │   ├── Ohashi0806shield.png
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.jxr
+│   │   ├── Production_of_B-24_bombers_and_C-87_transports2.png
+│   │   ├── Reykjavík_03.jxr
+│   │   ├── Reykjavík_03.png
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.jxr
+│   │   ├── Seikima-II_20100704_Japan_Expo_32.png
+│   │   ├── Sking.jxr
+│   │   ├── Sking.png
+│   │   ├── Southern_pacific_1215.jxr
+│   │   ├── Southern_pacific_1215.png
+│   │   ├── Steinway_Vienna_panoramic.jxr
+│   │   ├── Steinway_Vienna_panoramic.png
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.jxr
+│   │   ├── ST_vs_RCT_-_December_2011_-_077.png
+│   │   ├── Swallowtail_05_06_07.jxr
+│   │   ├── Swallowtail_05_06_07.png
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.jxr
+│   │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.png
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.jxr
+│   │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.png
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.jxr
+│   │   ├── US_Open_Tennis_2010_1st_Round_046.png
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.jxr
+│   │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.png
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.jxr
+│   │   ├── Washington_Monument,_Washington,_D.C._04037u_original.png
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.jxr
+│   │   ├── Wasserfassstelle_von_1898_im_Schanerloch.png
+│   │   ├── White_Dune_-_Mui_Ne.jxr
+│   │   └── White_Dune_-_Mui_Ne.png
+│   └── MOZJPEG
+│       ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.jpg
+│       ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.jpg
+│       ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.jpg
+│       ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.jpg
+│       ├── 89_-_Vézelay_Basilique_2.jpg
+│       ├── Abandoned_Packard_Automobile_Factory_Detroit_200.jpg
+│       ├── Adventure_with_the_Windmills.jpg
+│       ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.jpg
+│       ├── Albi,_Cathédrale_Sainte_Cécile_(3).jpg
+│       ├── Bath_from_alexandra_park.jpg
+│       ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.jpg
+│       ├── Catedral_de_Toledo.Altar_Mayor_(huge).jpg
+│       ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.jpg
+│       ├── Citroen_C4F.jpg
+│       ├── Claudette_14_july_2003_1920Z.jpg
+│       ├── Clovisfest.jpg
+│       ├── Correfocs_Festa_Major_del_Clot_2009.jpg
+│       ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.jpg
+│       ├── Eaglefairy_hst_big.jpg
+│       ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.jpg
+│       ├── End_of_Show_3.jpg
+│       ├── Florac-Le_Vibron-Source_du_Pêcher.jpg
+│       ├── Fruits_oranges,_jardin_japonais_2.jpg
+│       ├── GrimburgwalAmsterdam.jpg
+│       ├── IENA_-_Avenches_-_6.jpg
+│       ├── Kopenhagen,_Tivoli-9120.jpg
+│       ├── Krøyer_PS.jpg
+│       ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.jpg
+│       ├── MEG_20110701_Japan_Expo_02.jpg
+│       ├── Moscow_July_2011-4a.jpg
+│       ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.jpg
+│       ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.jpg
+│       ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.jpg
+│       ├── Ohashi0806shield.jpg
+│       ├── Production_of_B-24_bombers_and_C-87_transports2.jpg
+│       ├── Reykjavík_03.jpg
+│       ├── Seikima-II_20100704_Japan_Expo_32.jpg
+│       ├── Sking.jpg
+│       ├── Southern_pacific_1215.jpg
+│       ├── Steinway_Vienna_panoramic.jpg
+│       ├── ST_vs_RCT_-_December_2011_-_077.jpg
+│       ├── Swallowtail_05_06_07.jpg
+│       ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.jpg
+│       ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.jpg
+│       ├── US_Open_Tennis_2010_1st_Round_046.jpg
+│       ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.jpg
+│       ├── Washington_Monument,_Washington,_D.C._04037u_original.jpg
+│       ├── Wasserfassstelle_von_1898_im_Schanerloch.jpg
+│       └── White_Dune_-_Mui_Ne.jpg
+└── tiny
+    ├── AV1
+    │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.avif
+    │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.png
+    │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.avif
+    │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.png
+    │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.avif
+    │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.png
+    │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.avif
+    │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.png
+    │   ├── 89_-_Vézelay_Basilique_2.avif
+    │   ├── 89_-_Vézelay_Basilique_2.png
+    │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.avif
+    │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.png
+    │   ├── Adventure_with_the_Windmills.avif
+    │   ├── Adventure_with_the_Windmills.png
+    │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.avif
+    │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.png
+    │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).avif
+    │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).png
+    │   ├── Bath_from_alexandra_park.avif
+    │   ├── Bath_from_alexandra_park.png
+    │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.avif
+    │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.png
+    │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).avif
+    │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).png
+    │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.avif
+    │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.png
+    │   ├── Citroen_C4F.avif
+    │   ├── Citroen_C4F.png
+    │   ├── Claudette_14_july_2003_1920Z.avif
+    │   ├── Claudette_14_july_2003_1920Z.png
+    │   ├── Clovisfest.avif
+    │   ├── Clovisfest.png
+    │   ├── Correfocs_Festa_Major_del_Clot_2009.avif
+    │   ├── Correfocs_Festa_Major_del_Clot_2009.png
+    │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.avif
+    │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.png
+    │   ├── Eaglefairy_hst_big.avif
+    │   ├── Eaglefairy_hst_big.png
+    │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.avif
+    │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.png
+    │   ├── End_of_Show_3.avif
+    │   ├── End_of_Show_3.png
+    │   ├── Florac-Le_Vibron-Source_du_Pêcher.avif
+    │   ├── Florac-Le_Vibron-Source_du_Pêcher.png
+    │   ├── Fruits_oranges,_jardin_japonais_2.avif
+    │   ├── Fruits_oranges,_jardin_japonais_2.png
+    │   ├── GrimburgwalAmsterdam.avif
+    │   ├── GrimburgwalAmsterdam.png
+    │   ├── IENA_-_Avenches_-_6.avif
+    │   ├── IENA_-_Avenches_-_6.png
+    │   ├── Kopenhagen,_Tivoli-9120.avif
+    │   ├── Kopenhagen,_Tivoli-9120.png
+    │   ├── Krøyer_PS.avif
+    │   ├── Krøyer_PS.png
+    │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.avif
+    │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.png
+    │   ├── MEG_20110701_Japan_Expo_02.avif
+    │   ├── MEG_20110701_Japan_Expo_02.png
+    │   ├── Moscow_July_2011-4a.avif
+    │   ├── Moscow_July_2011-4a.png
+    │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.avif
+    │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.png
+    │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.avif
+    │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.png
+    │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.avif
+    │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.png
+    │   ├── Ohashi0806shield.avif
+    │   ├── Ohashi0806shield.png
+    │   ├── Production_of_B-24_bombers_and_C-87_transports2.avif
+    │   ├── Production_of_B-24_bombers_and_C-87_transports2.png
+    │   ├── Reykjavík_03.avif
+    │   ├── Reykjavík_03.png
+    │   ├── Seikima-II_20100704_Japan_Expo_32.avif
+    │   ├── Seikima-II_20100704_Japan_Expo_32.png
+    │   ├── Sking.avif
+    │   ├── Sking.png
+    │   ├── Southern_pacific_1215.avif
+    │   ├── Southern_pacific_1215.png
+    │   ├── Steinway_Vienna_panoramic.avif
+    │   ├── Steinway_Vienna_panoramic.png
+    │   ├── ST_vs_RCT_-_December_2011_-_077.avif
+    │   ├── ST_vs_RCT_-_December_2011_-_077.png
+    │   ├── Swallowtail_05_06_07.avif
+    │   ├── Swallowtail_05_06_07.png
+    │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.avif
+    │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.png
+    │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.avif
+    │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.png
+    │   ├── US_Open_Tennis_2010_1st_Round_046.avif
+    │   ├── US_Open_Tennis_2010_1st_Round_046.png
+    │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.avif
+    │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.png
+    │   ├── Washington_Monument,_Washington,_D.C._04037u_original.avif
+    │   ├── Washington_Monument,_Washington,_D.C._04037u_original.png
+    │   ├── Wasserfassstelle_von_1898_im_Schanerloch.avif
+    │   ├── Wasserfassstelle_von_1898_im_Schanerloch.png
+    │   ├── White_Dune_-_Mui_Ne.avif
+    │   └── White_Dune_-_Mui_Ne.png
+    ├── BPG
+    │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.bpg
+    │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.png
+    │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.bpg
+    │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.png
+    │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.bpg
+    │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.png
+    │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.bpg
+    │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.png
+    │   ├── 89_-_Vézelay_Basilique_2.bpg
+    │   ├── 89_-_Vézelay_Basilique_2.png
+    │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.bpg
+    │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.png
+    │   ├── Adventure_with_the_Windmills.bpg
+    │   ├── Adventure_with_the_Windmills.png
+    │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.bpg
+    │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.png
+    │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).bpg
+    │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).png
+    │   ├── Bath_from_alexandra_park.bpg
+    │   ├── Bath_from_alexandra_park.png
+    │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.bpg
+    │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.png
+    │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).bpg
+    │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).png
+    │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.bpg
+    │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.png
+    │   ├── Citroen_C4F.bpg
+    │   ├── Citroen_C4F.png
+    │   ├── Claudette_14_july_2003_1920Z.bpg
+    │   ├── Claudette_14_july_2003_1920Z.png
+    │   ├── Clovisfest.bpg
+    │   ├── Clovisfest.png
+    │   ├── Correfocs_Festa_Major_del_Clot_2009.bpg
+    │   ├── Correfocs_Festa_Major_del_Clot_2009.png
+    │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.bpg
+    │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.png
+    │   ├── Eaglefairy_hst_big.bpg
+    │   ├── Eaglefairy_hst_big.png
+    │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.bpg
+    │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.png
+    │   ├── End_of_Show_3.bpg
+    │   ├── End_of_Show_3.png
+    │   ├── Florac-Le_Vibron-Source_du_Pêcher.bpg
+    │   ├── Florac-Le_Vibron-Source_du_Pêcher.png
+    │   ├── Fruits_oranges,_jardin_japonais_2.bpg
+    │   ├── Fruits_oranges,_jardin_japonais_2.png
+    │   ├── GrimburgwalAmsterdam.bpg
+    │   ├── GrimburgwalAmsterdam.png
+    │   ├── IENA_-_Avenches_-_6.bpg
+    │   ├── IENA_-_Avenches_-_6.png
+    │   ├── Kopenhagen,_Tivoli-9120.bpg
+    │   ├── Kopenhagen,_Tivoli-9120.png
+    │   ├── Krøyer_PS.bpg
+    │   ├── Krøyer_PS.png
+    │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.bpg
+    │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.png
+    │   ├── MEG_20110701_Japan_Expo_02.bpg
+    │   ├── MEG_20110701_Japan_Expo_02.png
+    │   ├── Moscow_July_2011-4a.bpg
+    │   ├── Moscow_July_2011-4a.png
+    │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.bpg
+    │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.png
+    │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.bpg
+    │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.png
+    │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.bpg
+    │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.png
+    │   ├── Ohashi0806shield.bpg
+    │   ├── Ohashi0806shield.png
+    │   ├── Production_of_B-24_bombers_and_C-87_transports2.bpg
+    │   ├── Production_of_B-24_bombers_and_C-87_transports2.png
+    │   ├── Reykjavík_03.bpg
+    │   ├── Reykjavík_03.png
+    │   ├── Seikima-II_20100704_Japan_Expo_32.bpg
+    │   ├── Seikima-II_20100704_Japan_Expo_32.png
+    │   ├── Sking.bpg
+    │   ├── Sking.png
+    │   ├── Southern_pacific_1215.bpg
+    │   ├── Southern_pacific_1215.png
+    │   ├── Steinway_Vienna_panoramic.bpg
+    │   ├── Steinway_Vienna_panoramic.png
+    │   ├── ST_vs_RCT_-_December_2011_-_077.bpg
+    │   ├── ST_vs_RCT_-_December_2011_-_077.png
+    │   ├── Swallowtail_05_06_07.bpg
+    │   ├── Swallowtail_05_06_07.png
+    │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.bpg
+    │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.png
+    │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.bpg
+    │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.png
+    │   ├── US_Open_Tennis_2010_1st_Round_046.bpg
+    │   ├── US_Open_Tennis_2010_1st_Round_046.png
+    │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.bpg
+    │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.png
+    │   ├── Washington_Monument,_Washington,_D.C._04037u_original.bpg
+    │   ├── Washington_Monument,_Washington,_D.C._04037u_original.png
+    │   ├── Wasserfassstelle_von_1898_im_Schanerloch.bpg
+    │   ├── Wasserfassstelle_von_1898_im_Schanerloch.png
+    │   ├── White_Dune_-_Mui_Ne.bpg
+    │   └── White_Dune_-_Mui_Ne.png
+    ├── FLIF
+    │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.flif
+    │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.png
+    │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.flif
+    │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.png
+    │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.flif
+    │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.png
+    │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.flif
+    │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.png
+    │   ├── 89_-_Vézelay_Basilique_2.flif
+    │   ├── 89_-_Vézelay_Basilique_2.png
+    │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.flif
+    │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.png
+    │   ├── Adventure_with_the_Windmills.flif
+    │   ├── Adventure_with_the_Windmills.png
+    │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.flif
+    │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.png
+    │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).flif
+    │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).png
+    │   ├── Bath_from_alexandra_park.flif
+    │   ├── Bath_from_alexandra_park.png
+    │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.flif
+    │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.png
+    │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).flif
+    │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).png
+    │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.flif
+    │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.png
+    │   ├── Citroen_C4F.flif
+    │   ├── Citroen_C4F.png
+    │   ├── Claudette_14_july_2003_1920Z.flif
+    │   ├── Claudette_14_july_2003_1920Z.png
+    │   ├── Clovisfest.flif
+    │   ├── Clovisfest.png
+    │   ├── Correfocs_Festa_Major_del_Clot_2009.flif
+    │   ├── Correfocs_Festa_Major_del_Clot_2009.png
+    │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.flif
+    │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.png
+    │   ├── Eaglefairy_hst_big.flif
+    │   ├── Eaglefairy_hst_big.png
+    │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.flif
+    │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.png
+    │   ├── End_of_Show_3.flif
+    │   ├── End_of_Show_3.png
+    │   ├── Florac-Le_Vibron-Source_du_Pêcher.flif
+    │   ├── Florac-Le_Vibron-Source_du_Pêcher.png
+    │   ├── Fruits_oranges,_jardin_japonais_2.flif
+    │   ├── Fruits_oranges,_jardin_japonais_2.png
+    │   ├── GrimburgwalAmsterdam.flif
+    │   ├── GrimburgwalAmsterdam.png
+    │   ├── IENA_-_Avenches_-_6.flif
+    │   ├── IENA_-_Avenches_-_6.png
+    │   ├── Kopenhagen,_Tivoli-9120.flif
+    │   ├── Kopenhagen,_Tivoli-9120.png
+    │   ├── Krøyer_PS.flif
+    │   ├── Krøyer_PS.png
+    │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.flif
+    │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.png
+    │   ├── MEG_20110701_Japan_Expo_02.flif
+    │   ├── MEG_20110701_Japan_Expo_02.png
+    │   ├── Moscow_July_2011-4a.flif
+    │   ├── Moscow_July_2011-4a.png
+    │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.flif
+    │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.png
+    │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.flif
+    │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.png
+    │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.flif
+    │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.png
+    │   ├── Ohashi0806shield.flif
+    │   ├── Ohashi0806shield.png
+    │   ├── Production_of_B-24_bombers_and_C-87_transports2.flif
+    │   ├── Production_of_B-24_bombers_and_C-87_transports2.png
+    │   ├── Reykjavík_03.flif
+    │   ├── Reykjavík_03.png
+    │   ├── Seikima-II_20100704_Japan_Expo_32.flif
+    │   ├── Seikima-II_20100704_Japan_Expo_32.png
+    │   ├── Sking.flif
+    │   ├── Sking.png
+    │   ├── Southern_pacific_1215.flif
+    │   ├── Southern_pacific_1215.png
+    │   ├── Steinway_Vienna_panoramic.flif
+    │   ├── Steinway_Vienna_panoramic.png
+    │   ├── ST_vs_RCT_-_December_2011_-_077.flif
+    │   ├── ST_vs_RCT_-_December_2011_-_077.png
+    │   ├── Swallowtail_05_06_07.flif
+    │   ├── Swallowtail_05_06_07.png
+    │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.flif
+    │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.png
+    │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.flif
+    │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.png
+    │   ├── US_Open_Tennis_2010_1st_Round_046.flif
+    │   ├── US_Open_Tennis_2010_1st_Round_046.png
+    │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.flif
+    │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.png
+    │   ├── Washington_Monument,_Washington,_D.C._04037u_original.flif
+    │   ├── Washington_Monument,_Washington,_D.C._04037u_original.png
+    │   ├── Wasserfassstelle_von_1898_im_Schanerloch.flif
+    │   ├── Wasserfassstelle_von_1898_im_Schanerloch.png
+    │   ├── White_Dune_-_Mui_Ne.flif
+    │   └── White_Dune_-_Mui_Ne.png
+    ├── JPEGXL
+    │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.jxl
+    │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.png
+    │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.jxl
+    │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.png
+    │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.jxl
+    │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.png
+    │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.jxl
+    │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.png
+    │   ├── 89_-_Vézelay_Basilique_2.jxl
+    │   ├── 89_-_Vézelay_Basilique_2.png
+    │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.jxl
+    │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.png
+    │   ├── Adventure_with_the_Windmills.jxl
+    │   ├── Adventure_with_the_Windmills.png
+    │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.jxl
+    │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.png
+    │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).jxl
+    │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).png
+    │   ├── Bath_from_alexandra_park.jxl
+    │   ├── Bath_from_alexandra_park.png
+    │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.jxl
+    │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.png
+    │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).jxl
+    │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).png
+    │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.jxl
+    │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.png
+    │   ├── Citroen_C4F.jxl
+    │   ├── Citroen_C4F.png
+    │   ├── Claudette_14_july_2003_1920Z.jxl
+    │   ├── Claudette_14_july_2003_1920Z.png
+    │   ├── Clovisfest.jxl
+    │   ├── Clovisfest.png
+    │   ├── Correfocs_Festa_Major_del_Clot_2009.jxl
+    │   ├── Correfocs_Festa_Major_del_Clot_2009.png
+    │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.jxl
+    │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.png
+    │   ├── Eaglefairy_hst_big.jxl
+    │   ├── Eaglefairy_hst_big.png
+    │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.jxl
+    │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.png
+    │   ├── End_of_Show_3.jxl
+    │   ├── End_of_Show_3.png
+    │   ├── Florac-Le_Vibron-Source_du_Pêcher.jxl
+    │   ├── Florac-Le_Vibron-Source_du_Pêcher.png
+    │   ├── Fruits_oranges,_jardin_japonais_2.jxl
+    │   ├── Fruits_oranges,_jardin_japonais_2.png
+    │   ├── GrimburgwalAmsterdam.jxl
+    │   ├── GrimburgwalAmsterdam.png
+    │   ├── IENA_-_Avenches_-_6.jxl
+    │   ├── IENA_-_Avenches_-_6.png
+    │   ├── Kopenhagen,_Tivoli-9120.jxl
+    │   ├── Kopenhagen,_Tivoli-9120.png
+    │   ├── Krøyer_PS.jxl
+    │   ├── Krøyer_PS.png
+    │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.jxl
+    │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.png
+    │   ├── MEG_20110701_Japan_Expo_02.jxl
+    │   ├── MEG_20110701_Japan_Expo_02.png
+    │   ├── Moscow_July_2011-4a.jxl
+    │   ├── Moscow_July_2011-4a.png
+    │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.jxl
+    │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.png
+    │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.jxl
+    │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.png
+    │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.jxl
+    │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.png
+    │   ├── Ohashi0806shield.jxl
+    │   ├── Ohashi0806shield.png
+    │   ├── Production_of_B-24_bombers_and_C-87_transports2.jxl
+    │   ├── Production_of_B-24_bombers_and_C-87_transports2.png
+    │   ├── Reykjavík_03.jxl
+    │   ├── Reykjavík_03.png
+    │   ├── Seikima-II_20100704_Japan_Expo_32.jxl
+    │   ├── Seikima-II_20100704_Japan_Expo_32.png
+    │   ├── Sking.jxl
+    │   ├── Sking.png
+    │   ├── Southern_pacific_1215.jxl
+    │   ├── Southern_pacific_1215.png
+    │   ├── Steinway_Vienna_panoramic.jxl
+    │   ├── Steinway_Vienna_panoramic.png
+    │   ├── ST_vs_RCT_-_December_2011_-_077.jxl
+    │   ├── ST_vs_RCT_-_December_2011_-_077.png
+    │   ├── Swallowtail_05_06_07.jxl
+    │   ├── Swallowtail_05_06_07.png
+    │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.jxl
+    │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.png
+    │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.jxl
+    │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.png
+    │   ├── US_Open_Tennis_2010_1st_Round_046.jxl
+    │   ├── US_Open_Tennis_2010_1st_Round_046.png
+    │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.jxl
+    │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.png
+    │   ├── Washington_Monument,_Washington,_D.C._04037u_original.jxl
+    │   ├── Washington_Monument,_Washington,_D.C._04037u_original.png
+    │   ├── Wasserfassstelle_von_1898_im_Schanerloch.jxl
+    │   ├── Wasserfassstelle_von_1898_im_Schanerloch.png
+    │   ├── White_Dune_-_Mui_Ne.jxl
+    │   └── White_Dune_-_Mui_Ne.png
+    ├── JPEGXR
+    │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.jxr
+    │   ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.png
+    │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.jxr
+    │   ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.png
+    │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.jxr
+    │   ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.png
+    │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.jxr
+    │   ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.png
+    │   ├── 89_-_Vézelay_Basilique_2.jxr
+    │   ├── 89_-_Vézelay_Basilique_2.png
+    │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.jxr
+    │   ├── Abandoned_Packard_Automobile_Factory_Detroit_200.png
+    │   ├── Adventure_with_the_Windmills.jxr
+    │   ├── Adventure_with_the_Windmills.png
+    │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.jxr
+    │   ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.png
+    │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).jxr
+    │   ├── Albi,_Cathédrale_Sainte_Cécile_(3).png
+    │   ├── Bath_from_alexandra_park.jxr
+    │   ├── Bath_from_alexandra_park.png
+    │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.jxr
+    │   ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.png
+    │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).jxr
+    │   ├── Catedral_de_Toledo.Altar_Mayor_(huge).png
+    │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.jxr
+    │   ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.png
+    │   ├── Citroen_C4F.jxr
+    │   ├── Citroen_C4F.png
+    │   ├── Claudette_14_july_2003_1920Z.jxr
+    │   ├── Claudette_14_july_2003_1920Z.png
+    │   ├── Clovisfest.jxr
+    │   ├── Clovisfest.png
+    │   ├── Correfocs_Festa_Major_del_Clot_2009.jxr
+    │   ├── Correfocs_Festa_Major_del_Clot_2009.png
+    │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.jxr
+    │   ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.png
+    │   ├── Eaglefairy_hst_big.jxr
+    │   ├── Eaglefairy_hst_big.png
+    │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.jxr
+    │   ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.png
+    │   ├── End_of_Show_3.jxr
+    │   ├── End_of_Show_3.png
+    │   ├── Florac-Le_Vibron-Source_du_Pêcher.jxr
+    │   ├── Florac-Le_Vibron-Source_du_Pêcher.png
+    │   ├── Fruits_oranges,_jardin_japonais_2.jxr
+    │   ├── Fruits_oranges,_jardin_japonais_2.png
+    │   ├── GrimburgwalAmsterdam.jxr
+    │   ├── GrimburgwalAmsterdam.png
+    │   ├── IENA_-_Avenches_-_6.jxr
+    │   ├── IENA_-_Avenches_-_6.png
+    │   ├── Kopenhagen,_Tivoli-9120.jxr
+    │   ├── Kopenhagen,_Tivoli-9120.png
+    │   ├── Krøyer_PS.jxr
+    │   ├── Krøyer_PS.png
+    │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.jxr
+    │   ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.png
+    │   ├── MEG_20110701_Japan_Expo_02.jxr
+    │   ├── MEG_20110701_Japan_Expo_02.png
+    │   ├── Moscow_July_2011-4a.jxr
+    │   ├── Moscow_July_2011-4a.png
+    │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.jxr
+    │   ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.png
+    │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.jxr
+    │   ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.png
+    │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.jxr
+    │   ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.png
+    │   ├── Ohashi0806shield.jxr
+    │   ├── Ohashi0806shield.png
+    │   ├── Production_of_B-24_bombers_and_C-87_transports2.jxr
+    │   ├── Production_of_B-24_bombers_and_C-87_transports2.png
+    │   ├── Reykjavík_03.jxr
+    │   ├── Reykjavík_03.png
+    │   ├── Seikima-II_20100704_Japan_Expo_32.jxr
+    │   ├── Seikima-II_20100704_Japan_Expo_32.png
+    │   ├── Sking.jxr
+    │   ├── Sking.png
+    │   ├── Southern_pacific_1215.jxr
+    │   ├── Southern_pacific_1215.png
+    │   ├── Steinway_Vienna_panoramic.jxr
+    │   ├── Steinway_Vienna_panoramic.png
+    │   ├── ST_vs_RCT_-_December_2011_-_077.jxr
+    │   ├── ST_vs_RCT_-_December_2011_-_077.png
+    │   ├── Swallowtail_05_06_07.jxr
+    │   ├── Swallowtail_05_06_07.png
+    │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.jxr
+    │   ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.png
+    │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.jxr
+    │   ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.png
+    │   ├── US_Open_Tennis_2010_1st_Round_046.jxr
+    │   ├── US_Open_Tennis_2010_1st_Round_046.png
+    │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.jxr
+    │   ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.png
+    │   ├── Washington_Monument,_Washington,_D.C._04037u_original.jxr
+    │   ├── Washington_Monument,_Washington,_D.C._04037u_original.png
+    │   ├── Wasserfassstelle_von_1898_im_Schanerloch.jxr
+    │   ├── Wasserfassstelle_von_1898_im_Schanerloch.png
+    │   ├── White_Dune_-_Mui_Ne.jxr
+    │   └── White_Dune_-_Mui_Ne.png
+    └── MOZJPEG
+        ├── 08-2011._Panthera_tigris_tigris_-_Texas_Park_-_Lanzarote_-TP04.jpg
+        ├── 125_-_Québec_-_Pont_de_Québec_de_nuit_-_Septembre_2009.jpg
+        ├── 2011-03-05_03-13_Madeira_159_Funchal,_Mercado_dos_Lavradores.jpg
+        ├── 205_-_Vallée_de_Colca_-_Panorama_-_Juin_2010_-_5_de_6.jpg
+        ├── 89_-_Vézelay_Basilique_2.jpg
+        ├── Abandoned_Packard_Automobile_Factory_Detroit_200.jpg
+        ├── Adventure_with_the_Windmills.jpg
+        ├── Air_Force_Academy_Chapel,_Colorado_Springs,_CO_04090u_original.jpg
+        ├── Albi,_Cathédrale_Sainte_Cécile_(3).jpg
+        ├── Bath_from_alexandra_park.jpg
+        ├── Buenos_Aires_Cityline_at_Night_-_Irargerich.jpg
+        ├── Catedral_de_Toledo.Altar_Mayor_(huge).jpg
+        ├── Cecret_Lake_Panorama_Albion_Basin_Alta_Utah_July_2009.jpg
+        ├── Citroen_C4F.jpg
+        ├── Claudette_14_july_2003_1920Z.jpg
+        ├── Clovisfest.jpg
+        ├── Correfocs_Festa_Major_del_Clot_2009.jpg
+        ├── Crepuscular_rays_at_Sunset_near_Waterberg_Plateau.jpg
+        ├── Eaglefairy_hst_big.jpg
+        ├── Endeavour_with_Columbia_Ferry_Flyby_-_GPN-2000-001996.jpg
+        ├── End_of_Show_3.jpg
+        ├── Florac-Le_Vibron-Source_du_Pêcher.jpg
+        ├── Fruits_oranges,_jardin_japonais_2.jpg
+        ├── GrimburgwalAmsterdam.jpg
+        ├── IENA_-_Avenches_-_6.jpg
+        ├── Kopenhagen,_Tivoli-9120.jpg
+        ├── Krøyer_PS.jpg
+        ├── Lufthansa_Aviation_Center_after_sunset_-_Frankfurt_-_Germany_-_near_Airport_Frankfurt_-_Fraport_-_03.jpg
+        ├── MEG_20110701_Japan_Expo_02.jpg
+        ├── Moscow_July_2011-4a.jpg
+        ├── Mural_in_Northeast_Pavillion,_Thomas_Jefferson_Building_by_Elmer_E._Garnsey_11670u_edit.jpg
+        ├── Nestor_meridionalis_-Rotorua,_North_Island,_New_Zealand-8a.jpg
+        ├── Nymphe_et_Amour_tenant_une_guirlande_-_Statues_du_Parterre_d'Eau_-_Château_de_Versailles_-_P1050390-P1050394_-_rectilinear.jpg
+        ├── Ohashi0806shield.jpg
+        ├── Production_of_B-24_bombers_and_C-87_transports2.jpg
+        ├── Reykjavík_03.jpg
+        ├── Seikima-II_20100704_Japan_Expo_32.jpg
+        ├── Sking.jpg
+        ├── Southern_pacific_1215.jpg
+        ├── Steinway_Vienna_panoramic.jpg
+        ├── ST_vs_RCT_-_December_2011_-_077.jpg
+        ├── Swallowtail_05_06_07.jpg
+        ├── US_Navy_091029-M-5645B-091_A_landing_craft,_air_cushion_(LCAC)_and_the_U.S._Coast_Guard_patrol_boat_Albacore_are_underway_near_Naval_Station_Norfolk.jpg
+        ├── US_Navy_111117-N-UB993-082_A_Sailor_examines_a_patient_during_drill.jpg
+        ├── US_Open_Tennis_2010_1st_Round_046.jpg
+        ├── Vid_Gajsek_-_Rojstnodnevna_referendumska_kavica.jpg
+        ├── Washington_Monument,_Washington,_D.C._04037u_original.jpg
+        ├── Wasserfassstelle_von_1898_im_Schanerloch.jpg
+        └── White_Dune_-_Mui_Ne.jpg
+
+30 directories, 2206 files
