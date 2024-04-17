@@ -7,12 +7,16 @@
                     "name": "AV1"
                 },
                 {
-                    "extension": "bpg",
-                    "name": "BPG"
-                },
-                {
                     "extension": "flif",
                     "name": "FLIF"
+                },
+                {
+                    "extension": "heif",
+                    "name": "HEIF"
+                },
+                {
+                    "extension": "jpg",
+                    "name": "JPEGLI"
                 },
                 {
                     "extension": "jxr",
