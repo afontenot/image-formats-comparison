@@ -25,11 +25,11 @@ cd output
 for file in */AV1/*.avif; do
     avifdec -d 8 $file ${file%.avif}.png;
 done
-for file in */BPG/*.bpg; do
-    bpgdec -o ${file%.bpg}.png $file;
-done
 for file in */FLIF/*.flif; do
     flif $file ${file%.flif}.png;
+done
+for file in */HEIF/*.bpg; do
+    heif-convert $file ${file%.heif}.png;
 done
 for file in */JPEGXL/*.jxl; do
     djxl $file ${file%.jxl}.png;
