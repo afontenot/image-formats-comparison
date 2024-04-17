@@ -10,7 +10,8 @@ from shutil import copy, rmtree
 
 
 jxl_size_cmd = "cjxl --disable_output --resampling 1 -e 9 {0}"
-jxl_size_regex = re.compile("Compressed to (\d+) bytes")
+jxl_size_regex = re.compile("Compressed to ([.0-9]+) (\w+)")
+jxl_size_abbr = {"bytes": 1, "kB": 1024, "MB": 1024 ** 2}
 
 
 codecs = {
@@ -113,7 +114,8 @@ def get_target_size(image):
     print(line[:80], end="")
     cmd = jxl_size_cmd.format(image + ".png")
     rv = run_external_cmd(cmd)
-    return int(jxl_size_regex.search(rv.stderr.decode("utf-8")).groups()[0])
+    res = jxl_size_regex.search(rv.stderr.decode("utf-8")).groups()
+    return float(res[0]) * jxl_size_abbr[res[1]]
 
 
 def get_target_sizes(images):
