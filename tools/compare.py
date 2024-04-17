@@ -81,8 +81,6 @@ def mkdir(directory):
         os.mkdir(directory)
     except FileExistsError:
         pass
-    except Exception as e:
-        return e
 
 
 def split(cmd):
@@ -187,13 +185,13 @@ if __name__ == "__main__":
     if len(args) < 2:
         print(f"Usage: {args[0]} path_to_images")
         sys.exit()
-    
+
     path_to_images = args[1]
     base_files = glob(path_to_images + "/*.ppm")
     images = [fn[:-4] for fn in base_files]
     print("Getting target size for large image variants...")
     target_sizes = get_target_sizes(images)
-    
+
     # stage zero: set up dirs
     print("\n\nSetting up search jobs...")
     size_names = ["large", "medium", "small", "tiny"]
