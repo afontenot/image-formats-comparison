@@ -212,6 +212,6 @@ if __name__ == "__main__":
 
     # stage 2: run jobs
     print("Running search jobs...")
-    with Pool(8) as p:
+    with Pool() as p:
         p.map(search, jobs, chunksize=1)
 
