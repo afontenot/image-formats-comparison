@@ -23,6 +23,15 @@ codecs = {
         "frac": 10,
         "quantizer": True
     },
+    "jpegli": {
+        "ext": ".jpg",
+        "input_ext": ".png",
+        "cmd": "cjpegli --chroma_subsampling=444 -d {0} {1} {2}",
+        "low_q": 0,
+        "high_q": 250,
+        "frac": 10,
+        "quantizer": True
+    },
     "av1": {
         "ext": ".avif",
         "input_ext": ".png",
