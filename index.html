@@ -72,7 +72,7 @@
         <p>The results from JPEG XL are complicated, because the quality setting actually dynamically chooses between normal mode and "modular" mode, so you're seeing two different modes of operation depending on what the quality level is. There's some chance that this behavior isn't monotonic, but it should be okay at high quality levels and it's better than the alternative (which was previously only using the normal mode).</p>
         <p>This page is based on <a href="http://people.xiph.org/~xiphmont/demo/daala/update1-tool2b.shtml" target="_blank">Xiph.org's</a> Daala comparison page. <a href="https://github.com/xooyoozoo/yolo-octo-bugfixes" target="_blank">Originally developed by xooyoozoo</a>. This version is a fork of <a href="https://wyohknott.github.io/image-formats-comparison/" target="_blank">WyohKnott's improved version</a> with additional updates and modifications (detailed below).
         <p>A list of sources for the images can be found in <a href="https://afontenot.github.io/image-formats-comparison/cite_images.txt" target="_blank">this text file</a>.</p>
-        <p>Last updated: June 2023.</p>
+        <p>Last updated: April 2024.</p>
         <h2>Changes vs. WyohKnott</h2>
         <ul>
             <li>Instead of using the original Daala test images, which are 4:2:0 subsampled, I recreated the image set from the original high-res sources, downscaling to the same sized source images as the Daala set, but not subsampled (4:4:4). This fixes <a href="https://github.com/WyohKnott/image-formats-comparison/issues/4" title="Original images may be YUV420 subsampled" target="_blank">this bug</a>.</li>
@@ -85,7 +85,7 @@
                 <li>OpenJpeg (JPEG2000): extremely low quality, not worth the effort.</li>
                 <li>PIK: dropped because I couldn't get it running on my computer; I think it might require newer CPU features. Many of its features have been subsumed into JPEG XL.</li>
                 <li>VP9: like Daala, there's not much interest in VP9 as an image codec any more. Look at AVIF instead.</li>
-                <li>WebP: dropped because it doesn't support unsubsampled images, making it a bad candidate for a high quality photography codec. All the codecs shown here are operating in their non-subsampled modes.</li> 
+                <li>WebP: dropped because it doesn't support unsubsampled images, making it a bad candidate for a high quality photography codec. All the codecs shown here are operating in their non-subsampled modes.</li>
                 </ul>
             </li>
             <li>The legacy BPG codec was replaced with the modern HEIF, which uses the same underlying video codec (H.265).</li>
@@ -97,19 +97,19 @@
             <li>I completed a partial rewrite of the canvas code making the comparison tool <b>much</b> faster, and <a href="https://github.com/WyohKnott/image-formats-comparison/issues/12" target="_blank">fixed a bug</a> where using a hidden canvas to resize the image would result in incorrect colors on some browsers. As part of this, I removed the Lanczos resizing feature in favor of integer only (nearest neigbor) resizing, which gives a more accurate presentation of the codecs.</li>
         </ul>
         <h2>Versions and Commands</h2>
-        <p><b>AV1 (avifenc 0.11.1 + aom v3.6.1):</b></p>
-        <p><pre>avifenc --depth 10 --yuv 444 --range full --speed 0 -c aom --min {quality} --max {quality} {input.png} {output.avif}</pre></p>
+        <p><b>AV1 (avifenc 1.0.4 + aom v3.8.2):</b></p>
+        <p><pre>avifenc --depth 10 --yuv 444 --range full --speed 0 -c aom --min {quantizer} --max {quantizer} {input.png} {output.avif}</pre></p>
         <p><b>FLIF (FLIF 0.4):</b></p>
         <p><pre>flif -E 95 -Q {quality} {input.png} {output.flif}</pre></p>
         <p><b>HEIF (libheif 1.17.6):</b></p>
         <p><pre>heif-enc -p chroma=444 -p x265:p=veryslow -q {quality} -o {output.heif} {input.png}</pre></p>
         <p><b>jpegli (libjxl 0.10.2):</b></p>
         <p><pre>cjpegli --chroma_resampling=444 -d {quantizer} {input.png} {output.jpg}</pre></p>
-        <p><b>JPEGXL (libjxl 0.8.1):</b></p>
-        <p><pre>cjxl --resampling 1 -e 9 -q {quality} {input.png} {output.jxl}</pre></p>
+        <p><b>JPEGXL (libjxl 0.10.2):</b></p>
+        <p><pre>cjxl --resampling 1 -e 9 -d {quantizer} {input.png} {output.jxl}</pre></p>
         <p><b>JPEGXR (jxrlib 0.2.4):</b></p>
         <p><pre>JxrEncApp -d 3 -q {quality} -o {output.jxr} -i {input.ppm}</pre></p>
-        <p><b>MozJPEG (mozjpeg 4.1.3):</b></p>
+        <p><b>MozJPEG (mozjpeg 4.1.5):</b></p>
         <p><pre>cjpeg -sample 1x1 -quality {quality} -outfile {output.jpg} {input.png}</pre></p>
     </div>
 
