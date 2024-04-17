@@ -68,7 +68,7 @@ codecs = {
     "mozjpeg": {
         "ext": ".jpg",
         "input_ext": ".png",
-        "cmd": "cjpeg -sample 1x1 -quality {0} -outfile {2} {1}",
+        "cmd": "mozjpeg -sample 1x1 -quality {0} -outfile {2} {1}",
         "low_q": 5,
         "high_q": 95,
         "quantizer": False
