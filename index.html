@@ -88,6 +88,7 @@
                 <li>WebP: dropped because it doesn't support unsubsampled images, making it a bad candidate for a high quality photography codec. All the codecs shown here are operating in their non-subsampled modes.</li> 
                 </ul>
             </li>
+            <li>The legacy BPG codec was replaced with the modern HEIF, which uses the same underlying video codec (H.265).</li>
             <li><b>JPEG XL</b> was added to the comparison.</li>
             <li>All codecs were updated to their latest available releases, see below. This fixes <a href="https://github.com/WyohKnott/image-formats-comparison/issues/8" title="Update with new version of AV1" target="_blank">this issue</a>.</li>
             <li>I fixed a bug where the settings weren't restored from the URL when refreshing or sharing a link.</li>
@@ -97,10 +98,10 @@
         <h2>Versions and Commands</h2>
         <p><b>AV1 (avifenc 0.11.1 + aom v3.6.1):</b></p>
         <p><pre>avifenc --depth 10 --yuv 444 --range full --speed 0 -c aom --min {quality} --max {quality} {input.png} {output.avif}</pre></p>
-        <p><b>BPG (libbpg 0.9.8):</b></p>
-        <p><pre>bpgenc -m 9 -f 444 -q {quality} -o {output.bpg} {input.png}</pre></p>
         <p><b>FLIF (FLIF 0.4):</b></p>
         <p><pre>flif -E 95 -Q {quality} {input.png} {output.flif}</pre></p>
+        <p><b>HEIF (libheif 1.17.6):</b></p>
+        <p><pre>heif-enc -p chroma=444 -p x265:p=veryslow -q {quality} -o {output.heif} {input.png}</pre></p>
         <p><b>JPEGXL (libjxl 0.8.1):</b></p>
         <p><pre>cjxl --resampling 1 -e 9 -q {quality} {input.png} {output.jxl}</pre></p>
         <p><b>JPEGXR (jxrlib 0.2.4):</b></p>

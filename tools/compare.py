@@ -41,13 +41,13 @@ codecs = {
         "high_q": 63,
         "quantizer": True
     },
-    "bpg": {
-        "ext": ".bpg",
+    "heif": {
+        "ext": ".heif",
         "input_ext": ".png",
-        "cmd": "bpgenc -m 9 -f 444 -q {0} -o {2} {1}",
-        "low_q": 1,
-        "high_q": 51,
-        "quantizer": True
+        "cmd": "heif-enc -p chroma=444 -p x265:p=veryslow -q {0} -o {2} {1}",
+        "low_q": 0,
+        "high_q": 100,
+        "quantizer": False
     },
     "flif": {
         "ext": ".flif",
