@@ -9,9 +9,9 @@ let split = 0.5;
 let canvas, ctx;
 
 const options = {
-    file: document.getElementById('fileSel'), 
+    file: document.getElementById('fileSel'),
     scale: document.getElementById('scaleSel'),
-    left: document.getElementById('leftSel'), 
+    left: document.getElementById('leftSel'),
     right: document.getElementById('rightSel'),
     subset: document.getElementById('subsetSel')
 };
@@ -19,11 +19,11 @@ const options = {
 const header = document.getElementById("center-head");
 
 let viewOptions = {
-    file: '', 
+    file: '',
     scale: '',
-    left: '', 
+    left: '',
     leftQ: '',
-    right: '', 
+    right: '',
     rightQ: ''
 };
 
@@ -122,7 +122,7 @@ function switchMode(event) {
         }
         updateImagesOnCanvas();
         updateInfoBox();
-    } 
+    }
 }
 
 function updateCanvas() {
@@ -181,7 +181,7 @@ function updateInfoBox() {
 function setImage(side, pathBase, codec) {
     let img = (side == "right") ? right : left;
     let path = urlFolder.concat(pathBase, '/', urlFile, '.', codec);
-    
+
     let xhr = new XMLHttpRequest();
 
     xhr.open("GET", path, true);
@@ -211,7 +211,7 @@ function setImage(side, pathBase, codec) {
             img.src = urlFolder.concat(pathBase, '/', urlFile, '.', 'png');
         };
         img.src = blobPath;
-        
+
     };
     xhr.send();
 }
@@ -219,7 +219,6 @@ function setImage(side, pathBase, codec) {
 function setSide(side) {
     let isRight = (side == 'right') ? 1 : 0;
     let whichQual = (isRight) ? rightQual : leftQual;
-    let image = getSelValue(options[side], 'value');
     let pathBase = getSelValue(options[side], 'folder');
 
     let quality = '';
@@ -231,10 +230,10 @@ function setSide(side) {
     }
 
     pathBase = quality + pathBase;
-    viewOptions[side] = image;
+    viewOptions[side] = getSelValue(options[side], 'value');
     viewOptions[side + 'Q'] = getSelValue(whichQual, 'value');
 
-    setImage(side.toLowerCase(), pathBase, image);
+    setImage(side.toLowerCase(), pathBase, getSelValue(options[side], 'extension'));
 }
 
 function setFile() {
@@ -270,12 +269,14 @@ function getWindowsOptions() {
                 }
                 if (leftOpts) {
                     s = document.querySelector('#leftSel [value="' + leftOpts[0] + '"]');
+                    if (!s) { s = document.querySelector('#leftSel [extension="' + leftOpts[0] + '"]'); };
                     if (s) { s.selected = true };
                     q = document.querySelector('#leftQual [value="' + leftOpts[1] + '"]');
                     if (q) { q.selected = true };
                 }
                 if (rightOpts) {
                     s = document.querySelector('#rightSel [value="' + rightOpts[0] + '"]');
+                    if (!s) { s = document.querySelector('#rightSel [extension="' + leftOpts[0] + '"]'); };
                     if (s) { s.selected = true };
                     q = document.querySelector('#rightQual [value="' + rightOpts[1] + '"]');
                     if (q) { q.selected = true };
@@ -312,12 +313,14 @@ document.addEventListener("DOMContentLoaded", function () {
                     let optLeft = document.createElement("option");
                     let optRight = document.createElement("option");
                     optLeft.setAttribute("folder", format["name"]);
+                    optLeft.setAttribute("extension", format["extension"]);
                     optLeft.text = format["name"];
-                    optLeft.value = format["extension"];
+                    optLeft.value = format["name"];
                     leftSel.add(optLeft, null);
                     optRight.setAttribute("folder", format["name"]);
+                    optRight.setAttribute("extension", format["extension"]);
                     optRight.text = format["name"];
-                    optRight.value = format["extension"];
+                    optRight.value = format["name"];
                     rightSel.add(optRight, null);
                 }
                 // files
